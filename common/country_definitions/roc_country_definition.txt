@@ -1,0 +1,17 @@
+ROC = {
+	color = {
+		252
+		185
+		61
+	}
+	country_type = recognized
+	tier = hegemony
+	cultures = {
+		han
+		manchu
+		mongol
+		uighur
+		tibetan
+	}
+	capital = STATE_NANJING
+}
