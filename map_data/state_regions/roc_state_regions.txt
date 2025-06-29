@@ -1,0 +1,495 @@
+# 山西
+STATE_SHANXI = {
+	id = 491
+	subsistence_building = "building_subsistence_rice_paddies"
+	provinces = {
+		"x04647B"
+		"x092D9A"
+		"x0F7841"
+		"x102702"
+		"x149A35"
+		"x1A2B77"
+		"x21C69F"
+		"x2BAB5F"
+		"x2E1AF5"
+		"x2E331F"
+		"x352689"
+		"x406C38"
+		"x41D423"
+		"x554E31"
+		"x5DD6C0"
+		"x62F096"
+		"x6A2320"
+		"x703060"
+		"x71F0A0"
+		"x771E37"
+		"x778646"
+		"x7EECDC"
+		"x7F5143"
+		"x9090C0"
+		"xA0F6F6"
+		"xA3D4C9"
+		"xA892F9"
+		"xB53053"
+		"xB63C5E"
+		"xBBD804"
+		"xBDBFAF"
+		"xBDF913"
+		"xC933A2"
+		"xD09041"
+		"xD29750"
+		"xE75A35"
+		"xE79EED"
+		"xF141F6"
+		"xF45F74"
+		"xF87F8F"
+		"xFA7945"
+	}
+	traits = {
+		"state_trait_the_loess_plateau"
+		"state_trait_yellow_river"
+		"state_trait_datong_coalfield"
+	}
+	city = "xF87F8F"
+	farm = "x62F096"
+	mine = "x2BAB5F"
+	wood = "x2E331F"
+	arable_land = 375
+	arable_resources = {
+		"bg_wheat_farms"
+		"bg_livestock_ranches"
+		"bg_tea_plantations"
+		"bg_tobacco_plantations"
+		"bg_vineyard_plantations"
+	}
+	capped_resources = {
+		bg_coal_mining = 116
+		bg_iron_mining = 96
+		bg_sulfur_mining = 48
+		bg_logging = 7
+	}
+	resource = {
+		type = "bg_oil_extraction"
+		undiscovered_amount = 30
+	}
+}
+
+# 苏州
+STATE_SUZHOU = {
+	id = 512
+	subsistence_building = "building_subsistence_rice_paddies"
+	provinces = {
+		"x301000"
+		"x61F061"
+		"x6E575B"
+		"x86FF7E"
+		"xB01101"
+		"xD0D0C0"
+		"xE9E92E"
+	}
+	traits = {
+		"state_trait_yangtze_river"
+		"state_trait_shanghai_harbors"
+		"state_trait_jiangnan_plains"
+	}
+	city = "xB01101"
+	port = "x301000"
+	farm = "x86FF7E"
+	mine = "x6E575B"
+	wood = "x61F061"
+	arable_land = 400
+	arable_resources = {
+		"bg_rice_farms"
+		"bg_livestock_ranches"
+		"bg_cotton_plantations"
+		"bg_silk_plantations"
+		"bg_tea_plantations"
+		"bg_tobacco_plantations"
+	}
+	capped_resources = {
+		bg_logging = 5
+		bg_fishing = 5
+	}
+	naval_exit_id = 3058
+}
+
+# 南京
+STATE_NANJING = {
+	id = 501
+	subsistence_building = "building_subsistence_rice_paddies"
+	provinces = {
+		"x0A91BF"
+		"x11A5D0"
+		"x515790"
+		"x8111D0"
+		"xADEC31"
+		"xE07161"
+		"xF14A5E"
+	}
+	traits = {
+		"state_trait_yangtze_river"
+		"state_trait_jiangnan_plains"
+	}
+	city = "x8111D0"
+	farm = "x8111D0"
+	mine = "x0A91BF"
+	wood = "xADEC31"
+	arable_land = 360
+	arable_resources = {
+		"bg_rice_farms"
+		"bg_livestock_ranches"
+		"bg_cotton_plantations"
+		"bg_silk_plantations"
+		"bg_tea_plantations"
+		"bg_tobacco_plantations"
+	}
+	capped_resources = {
+		bg_logging = 5
+	}
+}
+
+# 山东
+STATE_SHANDONG = {
+	id = 511
+	subsistence_building = "building_subsistence_rice_paddies"
+	provinces = {
+		"x115180"
+		"x16E6F3"
+		"x175EC6"
+		"x1ABD79"
+		"x1D4C25"
+		"x2EF696"
+		"x32CFB2"
+		"x33490F"
+		"x38A73B"
+		"x39F708"
+		"x41FB70"
+		"x4724A9"
+		"x483CDB"
+		"x498F0D"
+		"x50D040"
+		"x55944E"
+		"x599BC4"
+		"x6B8F67"
+		"x6BFF52"
+		"x6DA6F9"
+		"x71C085"
+		"x798677"
+		"x8064F0"
+		"x83EC09"
+		"x90D001"
+		"x9D1474"
+		"xA0CF65"
+		"xAB53A3"
+		"xAC24A6"
+		"xAEDF9B"
+		"xB33A36"
+		"xBAA1D3"
+		"xC13552"
+		"xC14ECA"
+		"xC55E74"
+		"xCF50BF"
+		"xE01180"
+		"xE19708"
+		"xF07810"
+		"xF2D180"
+	}
+	traits = {
+		"state_trait_yellow_river"
+		"state_trait_qingdao_harbors"
+	}
+	city = "x9D1474"
+	port = "xAC24A6"
+	farm = "x599BC4"
+	mine = "x6B8F67"
+	wood = "x41FB70"
+	arable_land = 350
+	arable_resources = {
+		"bg_wheat_farms"
+		"bg_livestock_ranches"
+		"bg_cotton_plantations"
+		"bg_silk_plantations"
+		"bg_tea_plantations"
+		"bg_tobacco_plantations"
+	}
+	capped_resources = {
+		bg_sulfur_mining = 32
+		bg_logging = 6
+		bg_fishing = 15
+	}
+	resource = {
+		type = "bg_oil_extraction"
+		undiscovered_amount = 20
+	}
+	naval_exit_id = 3057
+}
+
+# 广东西部
+STATE_GUANGDONG = {
+	id = 497
+	subsistence_building = "building_subsistence_rice_paddies"
+	provinces = {
+		"x156AC0"
+		"x19FD82"
+		"x260389"
+		"x2BDE7B"
+		"x2C4C48"
+		"x30B0E0"
+		"x3131E0"
+		"x475968"
+		"x477755"
+		"x489AB0"
+		"x4E581C"
+		"x62BF42"
+		"x7131E0"
+		"x85E0D4"
+		"x8C9358"
+		"x9A21B1"
+		"xA92B88"
+		"xA9B6D4"
+		"xB031E0"
+		"xB0B061"
+		"xC77200"
+		"xCB457A"
+		"xDC137A"
+		"xF0B061"
+		"xF98B04"
+		"xFEBFD5"
+	}
+	traits = {
+		"state_trait_pearl_river"
+		"state_trait_guangzhou_harbors"
+	}
+	city = "x2BDE7B"
+	port = "xB031E0"
+	farm = "xFEBFD5"
+	mine = "x30B0E0"
+	wood = "xA92B88"
+	arable_land = 330
+	arable_resources = {
+		"bg_rice_farms"
+		"bg_livestock_ranches"
+		"bg_silk_plantations"
+		"bg_dye_plantations"
+		"bg_tea_plantations"
+		"bg_tobacco_plantations"
+		"bg_banana_plantations"
+	}
+	capped_resources = {
+		bg_logging = 8
+		bg_fishing = 14
+	}
+	naval_exit_id = 3056
+}
+
+# 广东东部
+STATE_SHAOZHOU = {
+	id = 483
+	subsistence_building = "building_subsistence_rice_paddies"
+	provinces = {
+		"x07C8D6"
+		"x12DF0F"
+		"x12F28E"
+		"x242A48"
+		"x31B061"
+		"x40D43A"
+		"x4CF229"
+		"x845B19"
+		"x8D6A1E"
+		"x9C3F91"
+		"xA0C90D"
+		"xA613C9"
+		"xAADB15"
+		"xACD8B5"
+		"xB03161"
+		"xCD4039"
+		"xD2A4C7"
+		"xDFB220"
+		"xE6F815"
+		"xEA597E"
+		"xEAB2D0"
+		"xF070E0"
+		"xF7C5ED"
+	}
+	traits = {
+		"state_trait_shenzhen_harbors"
+	}
+	city = "xA0C90D"
+	port = "xB03161"
+	farm = "x12F28E"
+	mine = "xACD8B5"
+	wood = "x242A48"
+	arable_land = 200
+	arable_resources = {
+		"bg_rice_farms"
+		"bg_livestock_ranches"
+		"bg_silk_plantations"
+		"bg_dye_plantations"
+		"bg_tea_plantations"
+		"bg_tobacco_plantations"
+		"bg_banana_plantations"
+	}
+	capped_resources = {
+		bg_iron_mining = 36
+		bg_logging = 11
+		bg_fishing = 10
+	}
+	naval_exit_id = 3056
+}
+
+# 北京
+STATE_BEIJING = {
+	id = 487
+	subsistence_building = "building_subsistence_rice_paddies"
+	provinces = {
+		"x038690"
+		"x0DC804"
+		"x0E8D56"
+		"x0F5604"
+		"x0F88C8"
+		"x132B15"
+		"x15C9C0"
+		"x166F01"
+		"x1DE6DF"
+		"x1E1B11"
+		"x20642C"
+		"x2167D8"
+		"x231686"
+		"x248784"
+		"x2AD313"
+		"x2BA1CE"
+		"x2C0AC4"
+		"x2F7E73"
+		"x3A340B"
+		"x3C6EFC"
+		"x3CFF20"
+		"x3E9C33"
+		"x3F46FB"
+		"x49C04A"
+		"x4BECCA"
+		"x4ED08B"
+		"x58AFAC"
+		"x5D4C2D"
+		"x5F795B"
+		"x61E0DD"
+		"x6376AC"
+		"x6583A6"
+		"x6A5736"
+		"x6AB0FB"
+		"x74A475"
+		"x74DF28"
+		"x762B45"
+		"x777A4F"
+		"x84B446"
+		"x88FF71"
+		"x89DBF2"
+		"x8D47D0"
+		"x9BB46B"
+		"xA0662C"
+		"xA8C9D2"
+		"xAA031A"
+		"xAF5387"
+		"xB00D9D"
+		"xB17E6B"
+		"xB6039C"
+		"xB9FF8C"
+		"xBCF72D"
+		"xBDC299"
+		"xC7BB4D"
+		"xC905ED"
+		"xCC917E"
+		"xCDCDEE"
+		"xD13996"
+		"xD1BFAF"
+		"xD4E0E8"
+		"xE60560"
+		"xED840A"
+		"xF151F1"
+		"xF1EF03"
+		"xF4B72A"
+		"xFBDEDF"
+	}
+	traits = {
+		"state_trait_kaiping_coalfield"
+		"state_trait_tianjin_harbors"
+	}
+	city = "x9BB46B"
+	port = "xB00D9D"
+	farm = "xB00D9D"
+	mine = "x0F5604"
+	wood = "xA0662C"
+	arable_land = 340
+	arable_resources = {
+		"bg_wheat_farms"
+		"bg_livestock_ranches"
+		"bg_cotton_plantations"
+		"bg_silk_plantations"
+		"bg_tea_plantations"
+		"bg_tobacco_plantations"
+	}
+	capped_resources = {
+		bg_coal_mining = 28
+		bg_iron_mining = 30
+		bg_lead_mining = 15
+		bg_logging = 2
+		bg_fishing = 3
+		bg_monuments = 1
+	}
+	naval_exit_id = 3057
+}
+
+# 浙江
+STATE_ZHEJIANG = {
+	id = 499
+	subsistence_building = "building_subsistence_rice_paddies"
+	provinces = {
+		"x217027"
+		"x2238D3"
+		"x241F94"
+		"x301080"
+		"x309000"
+		"x309080"
+		"x38108E"
+		"x3F8010"
+		"x41AD59"
+		"x477C0E"
+		"x5ABF0A"
+		"x5BE9C6"
+		"x6CDE24"
+		"x6F9804"
+		"x6F9BC4"
+		"x7E7930"
+		"x88E7E8"
+		"x8B7CC2"
+		"x9C0372"
+		"xAB5BE9"
+		"xAD0288"
+		"xB01080"
+		"xB09000"
+		"xC7DEC3"
+		"xD493DE"
+		"xDD34F4"
+		"xFE1A9C"
+	}
+	traits = {
+		"state_trait_zhoushan_harbors"
+	}
+	city = "x241F94"
+	port = "x301080"
+	farm = "x2238D3"
+	mine = "x9C0372"
+	wood = "x8B7CC2"
+	arable_land = 250
+	arable_resources = {
+		"bg_rice_farms"
+		"bg_livestock_ranches"
+		"bg_silk_plantations"
+		"bg_tea_plantations"
+		"bg_tobacco_plantations"
+	}
+	capped_resources = {
+		bg_logging = 20
+		bg_fishing = 11
+	}
+	naval_exit_id = 3058
+}
