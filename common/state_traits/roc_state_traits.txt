@@ -1,13 +1,6 @@
-﻿# 大同煤矿
-state_trait_datong_coalfield = {
-	icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
-	modifier = {
-		building_coal_mine_throughput_add = 0.2
-	}
-}
-
-# 江南平原
-state_trait_jiangnan_plains = {
+﻿# 农业特质
+# 东北平原
+state_trait_dongbei_plains = {
 	icon = "gfx/interface/icons/state_trait_icons/good_soils.dds"
 	modifier = {
 		building_group_bg_agriculture_throughput_add = 0.2
@@ -15,6 +8,51 @@ state_trait_jiangnan_plains = {
 	}
 }
 
+# 华北平原
+state_trait_huabei_plains = {
+	icon = "gfx/interface/icons/state_trait_icons/good_soils.dds"
+	modifier = {
+		building_group_bg_agriculture_throughput_add = 0.2
+		building_group_bg_plantations_throughput_add = 0.2
+	}
+}
+
+# 长江中下游平原
+state_trait_changjiang_plains = {
+	icon = "gfx/interface/icons/state_trait_icons/good_soils.dds"
+	modifier = {
+		building_group_bg_agriculture_throughput_add = 0.2
+		building_group_bg_plantations_throughput_add = 0.2
+	}
+}
+
+# 黑龙江
+state_trait_heilong_river = {
+	icon = "gfx/interface/icons/state_trait_icons/river.dds"
+	modifier = {
+		state_infrastructure_add = 15
+		state_market_access_price_impact = 0.05
+	}
+}
+
+# 工业特质
+# 大庆油田
+state_trait_daqing_oilfield = {
+	icon = "gfx/interface/icons/state_trait_icons/tropical_climate.dds"
+	modifier = {
+		building_group_bg_oil_extraction_throughput_add = 0.2
+	}
+}
+
+# 大同煤田
+state_trait_datong_coalfield = {
+	icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
+	modifier = {
+		building_coal_mine_throughput_add = 0.2
+	}
+}
+
+# 港口特质
 # 青岛港
 state_trait_qingdao_harbors = {
 	icon = "gfx/interface/icons/state_trait_icons/natural_harbors.dds"
