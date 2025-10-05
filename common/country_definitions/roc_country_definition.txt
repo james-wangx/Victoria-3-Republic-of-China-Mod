@@ -8,10 +8,6 @@ ROC = {
 	tier = hegemony
 	cultures = {
 		han
-		manchu
-		mongol
-		uighur
-		tibetan
 	}
 	capital = STATE_NANJING
 }
