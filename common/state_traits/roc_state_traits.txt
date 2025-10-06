@@ -35,6 +35,15 @@ state_trait_heilong_river = {
 	}
 }
 
+# 珠江
+state_trait_pearl_river = {
+	icon = "gfx/interface/icons/state_trait_icons/river.dds"
+	modifier = {
+		state_infrastructure_add = 15
+		state_market_access_price_impact = 0.05
+	}
+}
+
 # 工业特质
 # 大庆油田
 state_trait_daqing_oilfield = {
