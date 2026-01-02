@@ -4,11 +4,10 @@ CHI = {
 		185
 		61
 	}
-	country_type = recognized
-	tier = hegemony
+	country_type = unrecognized
+	tier = empire
 	cultures = {
 		han
 	}
-	religion = protestant
-	capital = STATE_NANJING
+	capital = STATE_BEIJING
 }
