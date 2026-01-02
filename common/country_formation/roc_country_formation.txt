@@ -1,4 +1,5 @@
-ROC = {
+# 中国
+CHI = {
 	states = {
 		STATE_GUIZHOU
 		STATE_CHONGQING
@@ -52,7 +53,7 @@ ROC = {
 		# 东喜马拉雅
 		STATE_EASTERN_HIMALAYAS
 	}
-	required_states_fraction = 0.8
+	required_states_fraction = 0.9
 	ai_will_do = {
 		always = yes
 	}

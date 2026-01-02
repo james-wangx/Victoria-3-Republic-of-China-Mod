@@ -1,4 +1,4 @@
-ROC = {
+CHI = {
 	color = {
 		252
 		185
@@ -9,5 +9,6 @@ ROC = {
 	cultures = {
 		han
 	}
+	religion = protestant
 	capital = STATE_NANJING
 }
