@@ -1,0 +1,10 @@
+﻿# Hanyang-made rifle prestige good
+
+prestige_good_roc_hanyang_rifle = {
+	possible = {
+		has_dlc_feature = mp1_content
+	}
+	base_good = small_arms
+	prestige_bonus = 0.1
+	texture = "gfx/interface/icons/goods_icons/prestige_goods/generic_small_arms_prestige.dds"
+}

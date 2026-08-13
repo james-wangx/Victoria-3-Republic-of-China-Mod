@@ -17,6 +17,7 @@
   - 共产主义：**中华人民共和国**
   - 其他（默认）：**中华民国**
 - 新增中国专属的 **汉冶萍煤铁厂矿股份有限公司**（`company_roc_hanyeping`），建筑为煤矿、铁矿与炼钢厂；名贵商品为精炼钢；研究“平炉炼钢法”后，任意已整合地区的炼钢厂达到 5 级即可成立。
+- 替换原版 **汉阳兵工厂**：科技条件改为“栓动式步枪”，增益为陆军进攻 +10%、防御 +10%，名贵商品为“汉阳造步枪”。
 
 ## 需求
 
@@ -48,6 +49,7 @@ common/country_formation/         ROC 成立国家（文化故土、possible 条
 common/dynamic_country_names/     按政府类型变化的国名
 common/flag_definitions/          复用原版中国盾徽的旗帜
 common/company_types/             汉冶萍公司定义（煤矿、铁矿、炼钢厂）
+common/prestige_goods/            汉阳造步枪名贵商品
 localization/english/             英文本地化
 localization/simp_chinese/        简体中文本地化
 ```

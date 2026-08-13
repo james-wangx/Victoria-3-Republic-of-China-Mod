@@ -24,6 +24,9 @@ for Qing China.
   mines, iron mines and steel mills. It produces refined steel as a prestige good and becomes
   available once the open hearth process is researched and any incorporated state has a steel
   mill at level 5 or higher.
+- Replaces the vanilla **Hanyang Arsenal** with a modified version: it now requires the
+  bolt-action rifle tech, grants +10% army offense and +10% army defense, and can produce the
+  **Hanyang-made rifle** prestige good.
 
 ## Requirements
 
@@ -55,6 +58,7 @@ common/country_formation/        ROC formable nation (culture states, possible)
 common/dynamic_country_names/    Government-type based country names
 common/flag_definitions/         Flags reusing vanilla China coat of arms
 common/company_types/            Hanyeping Coal and Iron Company definition
+common/prestige_goods/           Hanyang-made rifle prestige good
 localization/english/            English localization
 localization/simp_chinese/       Simplified Chinese localization
 ```
