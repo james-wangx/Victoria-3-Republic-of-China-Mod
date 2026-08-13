@@ -1,11 +1,14 @@
 {
   "name": "Republic of China",
   "id": "com.codicefun.victoria3.roc",
-  "version": "0.2",
+  "version": "0.3",
   "game_id": "victoria3",
-  "supported_game_version": "1.12.2",
+  "supported_game_version": "1.13.10",
   "short_description": "Republic of China mod design by Codicefun",
-  "tags": ["province", "fix"],
+  "tags": [
+    "province",
+    "fix"
+  ],
   "relationships": [],
   "game_custom_data": {
     "multiplayer_synchronized": true
