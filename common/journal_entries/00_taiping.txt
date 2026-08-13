@@ -39,6 +39,10 @@
 		}
 	}
 
+	invalid = {
+		c:ROC ?= this
+	}
+
 	immediate = {
 		custom_tooltip = {
 			text = missionary_activities_begin_tt
@@ -171,6 +175,10 @@ je_heavenly_kingdom_main = {
 		}
 	}
 
+	invalid = {
+		c:ROC ?= this
+	}
+
 	immediate = {
 		random_scope_state = {
 			limit = {
@@ -254,6 +262,10 @@ je_taiping = {
 
 	possible = {
 		NOT = { c:ROC ?= this }
+	}
+
+	invalid = {
+		c:ROC ?= this
 	}
 
 	complete = {

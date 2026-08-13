@@ -37,6 +37,10 @@
 		}
 	}
 
+	invalid = {
+		c:ROC ?= this
+	}
+
 	complete = {
 		trigger_if = {
 			limit = {

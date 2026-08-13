@@ -23,6 +23,10 @@
 		}
 	}
 
+	invalid = {
+		c:ROC ?= this
+	}
+
 	complete = {
 		custom_tooltip = {
 			text = won_boxer_tt

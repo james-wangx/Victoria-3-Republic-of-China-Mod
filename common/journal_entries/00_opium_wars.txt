@@ -37,6 +37,10 @@
 		}
 	}
 
+	invalid = {
+		c:ROC ?= this
+	}
+
 	complete = {
 		scope:journal_entry = { is_goal_complete = yes }
 		custom_tooltip = {
@@ -169,8 +173,11 @@ je_opium_wars = {
 	}
 
 	invalid = {
-		NOT = {
-			exists = scope:target
+		OR = {
+			c:ROC ?= this
+			NOT = {
+				exists = scope:target
+			}
 		}
 	}
 

@@ -29,6 +29,9 @@
             }
         }
     }
+    invalid = {
+        c:ROC ?= this
+    }
     immediate = {
         trigger_event = { id = boxer_rebellion_events.1 } # The Yihetuan Movement
     }
