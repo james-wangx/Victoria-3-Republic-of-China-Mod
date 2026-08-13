@@ -1,4 +1,4 @@
-ROC = {
+﻿ROC = {
 	flag_definition = {
 		coa = CHI_republic
 		subject_canton = CHI_republic

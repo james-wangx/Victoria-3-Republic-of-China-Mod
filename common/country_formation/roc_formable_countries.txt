@@ -1,4 +1,4 @@
-ROC = {
+﻿ROC = {
 	states = {
 		STATE_ALTAI
 		STATE_ALXA

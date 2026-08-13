@@ -1,4 +1,4 @@
-ROC = {
+﻿ROC = {
 	color = { 23 61 115 }
 
 	country_type = recognized
