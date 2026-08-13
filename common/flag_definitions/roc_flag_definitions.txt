@@ -15,13 +15,14 @@
 		}
 	}
 	flag_definition = {
-		coa = CHI
-		subject_canton = CHI
-		coa_with_overlord_canton = CHI_subject
-		allow_overlord_canton = yes
+		coa = CHI_han_empire
+		coa_with_overlord_canton = CHI_han_empire
 		priority = 5
 		trigger = {
-			coa_def_monarchy_flag_trigger = yes
+			scope:actor ?= {
+				NOT = { country_has_primary_culture = cu:manchu }
+				country_has_monarchy_law = yes
+			}
 		}
 	}
 	flag_definition = {
