@@ -27,6 +27,9 @@ for Qing China.
 - Replaces the vanilla **Hanyang Arsenal** with a modified version: it now requires the
   bolt-action rifle tech, grants +10% army offense and +10% army defense, and can produce the
   **Hanyang-made rifle** prestige good.
+- Replaces the vanilla **Jiangnan Weaving Bureaus** with a modified version: cotton
+  plantations are now core buildings, dye plantations are extension buildings, and the
+  prosperity modifier boosts textile mills and silk plantations by +10% each.
 
 ## Requirements
 
