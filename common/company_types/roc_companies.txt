@@ -76,7 +76,7 @@ company_roc_hanyeping = {
 
 # Hanyang Arsenal (replaces vanilla)
 TRY_REPLACE:company_hanyang_arsenal = {
-	icon = "gfx/interface/icons/company_icons/basic_weapons.dds"
+	icon = "gfx/interface/icons/company_icons/historical_company_icons/chinese_hanyang_arsenal.dds"
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_heavy.dds"
 
 	category = bureaucrat_owned
