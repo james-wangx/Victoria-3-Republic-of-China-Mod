@@ -38,6 +38,7 @@ company_roc_hanyeping = {
 	}
 
 	possible = {
+		has_technology_researched = bessemer_process
 		any_scope_state = {
 			is_incorporated = yes
 			any_scope_building = {
@@ -54,6 +55,7 @@ company_roc_hanyeping = {
 	}
 
 	ai_will_do = {
+		has_technology_researched = bessemer_process
 		any_scope_state = {
 			is_incorporated = yes
 		}
