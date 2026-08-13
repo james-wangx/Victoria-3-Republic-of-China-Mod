@@ -1,23 +1,24 @@
-# Victoria 3 中华民国 Mod
+# Victoria 3 Republic of China Mod
 
-## 规则
+## Rules
 
-- 文档和代码注释一律使用英文（docs and code comments must be written in English）
+- All documentation and code comments must be written in English.
 
-## 参考资料
+## References
 
-- 官方 Modding 文档（Paradox Wiki）: https://vic3.paradoxwikis.com/Modding
-- 游戏源码（本体文件，与 mod 目录结构一致）:
+- Official modding documentation (Paradox Wiki): https://vic3.paradoxwikis.com/Modding
+- Game files (base game directory, same structure as the mod folder):
   `C:\Program Files (x86)\Steam\steamapps\common\Victoria 3\game`
-- 已安装 MOD 目录（Steam Workshop 内容）:
+- Installed mods directory (Steam Workshop content):
   `C:\Program Files (x86)\Steam\steamapps\workshop\content\529340`
-- 当前游戏版本: 1.13.10 (Matcha)
+- Current game version: 1.13.10 (Matcha)
 
-## 已安装 MOD 列表
+## Installed mods
 
-Workshop 内容目录下每个子文件夹以 workshop id 命名，`<id>\.metadata\metadata.json` 中的 `name` 字段为 MOD 名称（UTF-8 编码）。
+Each subfolder under the workshop content directory is named by workshop id; the `name` field in
+`<id>\.metadata\metadata.json` is the mod name (UTF-8 encoded).
 
-| Workshop ID | 名称 |
+| Workshop ID | Name |
 | --- | --- |
 | 2880069248 | 牛奶汉化 |
 | 2881762225 | Dense Market Details |
