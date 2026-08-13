@@ -52,4 +52,4 @@ localization/simp_chinese/        简体中文本地化
 
 ## 许可
 
-本 Mod 按原样提供，供个人与社区使用。
+本 Mod 采用 [MIT 许可证](LICENSE)。

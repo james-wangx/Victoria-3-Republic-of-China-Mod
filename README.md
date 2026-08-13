@@ -56,4 +56,4 @@ localization/simp_chinese/       Simplified Chinese localization
 
 ## License
 
-This mod is provided as-is for personal and community use.
+This mod is licensed under the [MIT License](LICENSE).
