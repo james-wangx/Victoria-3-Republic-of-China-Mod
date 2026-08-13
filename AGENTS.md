@@ -1,5 +1,9 @@
 # Victoria 3 中华民国 Mod
 
+## 规则
+
+- 文档和代码注释一律使用英文（docs and code comments must be written in English）
+
 ## 参考资料
 
 - 官方 Modding 文档（Paradox Wiki）: https://vic3.paradoxwikis.com/Modding
