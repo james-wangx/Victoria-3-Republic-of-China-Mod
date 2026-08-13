@@ -254,3 +254,86 @@ TRY_REPLACE:company_jiangnan_weaving_bureaus = {
 		value = 3 # Higher base value for flavored companies
 	}
 }
+
+# Taikang Food Company
+company_roc_taikang_foods = {
+	icon = "gfx/interface/icons/company_icons/basic_food.dds"
+	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
+
+	flavored_company = yes
+
+	preferred_headquarters = { STATE_SHANDONG STATE_SUZHOU }
+
+	building_types = {
+		building_food_industry
+	}
+
+	possible_prestige_goods = {
+		prestige_good_roc_processed_food
+	}
+
+	potential = {
+		OR = {
+			country_has_primary_culture = cu:han
+			country_has_primary_culture = cu:manchu
+		}
+	}
+
+	attainable = {
+		hidden_trigger = { # Hide attainable if it's always fulfilled by possible
+			any_scope_state = {
+				OR = {
+					state_region = s:STATE_SHANDONG
+					state_region = s:STATE_SUZHOU
+				}
+			}
+		}
+	}
+
+	possible = {
+		has_technology_researched = canneries
+		any_scope_state = {
+			OR = {
+				state_region = s:STATE_SHANDONG
+				state_region = s:STATE_SUZHOU
+			}
+			is_incorporated = yes
+			any_scope_building = {
+				is_building_type = building_food_industry
+				level >= 5
+			}
+		}
+	}
+
+	prosperity_modifier = {
+		building_food_industry_throughput_add = 0.10
+	}
+
+	ai_will_do = {
+		has_technology_researched = canneries
+		any_scope_state = {
+			OR = {
+				state_region = s:STATE_SHANDONG
+				state_region = s:STATE_SUZHOU
+			}
+			is_incorporated = yes
+		}
+	}
+
+	ai_construction_targets = {
+		building_food_industry = {
+			level = 5
+			state_trigger = {
+				OR = {
+					state_region = s:STATE_SHANDONG
+					state_region = s:STATE_SUZHOU
+				}
+				is_incorporated = yes
+			}
+		}
+	}
+
+	ai_weight = {
+		value = 3 # Higher base value for flavored companies
+	}
+}

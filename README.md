@@ -30,6 +30,10 @@ for Qing China.
 - Replaces the vanilla **Jiangnan Weaving Bureaus** with a modified version: cotton
   plantations are now core buildings, dye plantations are extension buildings, and the
   prosperity modifier boosts textile mills and silk plantations by +10% each.
+- Adds a China-specific **Taikang Food Company** (`company_roc_taikang_foods`) with food
+  industry buildings. It produces processed food as a prestige good and becomes available once
+  the canneries tech is researched and an incorporated Shandong or Suzhou state has a food
+  industry building at level 5 or higher.
 
 ## Requirements
 
