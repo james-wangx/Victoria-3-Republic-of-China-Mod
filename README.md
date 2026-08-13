@@ -20,6 +20,9 @@ for Qing China.
   - Monarchy: **Empire of China** (中华帝国)
   - Communism: **People's Republic of China** (中华人民共和国)
   - Otherwise (default): **Republic of China** (中华民国)
+- Adds a China-specific **Hanyeping Coal and Iron Company** (`company_roc_hanyeping`) with coal
+  mines, iron mines and steel mills. It produces refined steel as a prestige good and becomes
+  available once any incorporated state has a steel mill at level 5 or higher.
 
 ## Requirements
 
@@ -50,6 +53,7 @@ common/country_definitions/      ROC country definition (colors, tier, cultures,
 common/country_formation/        ROC formable nation (culture states, possible)
 common/dynamic_country_names/    Government-type based country names
 common/flag_definitions/         Flags reusing vanilla China coat of arms
+common/company_types/            Hanyeping Coal and Iron Company definition
 localization/english/            English localization
 localization/simp_chinese/       Simplified Chinese localization
 ```

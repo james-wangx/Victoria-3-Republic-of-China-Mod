@@ -16,6 +16,7 @@
   - 君主制：**中华帝国**
   - 共产主义：**中华人民共和国**
   - 其他（默认）：**中华民国**
+- 新增中国专属的 **汉冶萍煤铁厂矿股份有限公司**（`company_roc_hanyeping`），建筑为煤矿、铁矿与炼钢厂；名贵商品为精炼钢；任意已整合地区的炼钢厂达到 5 级后可用。
 
 ## 需求
 
@@ -46,6 +47,7 @@ common/country_definitions/       ROC 国家定义（颜色、等级、文化、
 common/country_formation/         ROC 成立国家（文化故土、possible 条件）
 common/dynamic_country_names/     按政府类型变化的国名
 common/flag_definitions/          复用原版中国盾徽的旗帜
+common/company_types/             汉冶萍公司定义（煤矿、铁矿、炼钢厂）
 localization/english/             英文本地化
 localization/simp_chinese/        简体中文本地化
 ```
