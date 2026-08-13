@@ -1,0 +1,31 @@
+﻿roc_communist_china = {
+	color = "communist_china_red"
+	possible = {
+		exists = c:ROC
+		c:ROC ?= THIS
+		has_law_or_variant = law_type:law_council_republic
+	}
+}
+
+roc_republican_china = {
+	color = "azure"
+	possible = {
+		exists = c:ROC
+		c:ROC ?= THIS
+		OR = {
+			has_law_or_variant = law_type:law_parliamentary_republic
+			has_law_or_variant = law_type:law_presidential_republic
+			has_law_or_variant = law_type:law_corporate_state
+		}
+	}
+}
+
+roc_han_imperial_china = {
+	color = "red_china"
+	possible = {
+		exists = c:ROC
+		c:ROC ?= THIS
+		NOT = { country_has_primary_culture = cu:manchu }
+		country_has_monarchy_law = yes
+	}
+}
