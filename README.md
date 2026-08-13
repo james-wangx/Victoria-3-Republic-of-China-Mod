@@ -1,6 +1,6 @@
 # Victoria 3 Republic of China Mod
 
-![ROC](thumbnail.png)
+<p align="center"><img src="thumbnail.png" width="200" alt="ROC"></p>
 
 A Victoria 3 (1.13.10 Matcha) mod that adds the **Republic of China (ROC)** as a formable nation
 for Qing China.

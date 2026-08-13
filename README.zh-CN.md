@@ -1,6 +1,6 @@
 # 维多利亚3 中华民国 Mod
 
-![ROC](thumbnail.png)
+<p align="center"><img src="thumbnail.png" width="200" alt="ROC"></p>
 
 一个为 **维多利亚3（1.13.10 Matcha）** 制作、为清朝中国新增 **中华民国（ROC）** 成立国家的 Mod。
 
