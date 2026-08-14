@@ -1,0 +1,11 @@
+﻿# ROC state traits
+# Redefines selected vanilla state traits and adds ROC-specific state traits.
+
+# Yellow River: keep the infrastructure bonus, remove the market access price impact.
+REPLACE_OR_CREATE:state_trait_yellow_river = {
+	icon = "gfx/interface/icons/state_trait_icons/river.dds"
+
+	modifier = {
+		state_infrastructure_add = 15
+	}
+}
