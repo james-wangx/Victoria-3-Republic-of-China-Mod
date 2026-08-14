@@ -1,0 +1,21 @@
+﻿# Tibet game-start setup
+# Remove the vanilla Qing -> Tibet vassal pact so Tibet starts directly as part
+# of Qing (unincorporated territory) rather than as a subject.
+
+c:CHI ?= {
+    if = {
+        limit = {
+            exists = c:TIB
+            c:TIB = {
+                has_diplomatic_pact = {
+                    who = c:CHI
+                    type = vassal
+                }
+            }
+        }
+        remove_diplomatic_pact = {
+            country = c:TIB
+            type = vassal
+        }
+    }
+}
