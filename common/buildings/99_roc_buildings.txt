@@ -198,3 +198,42 @@ building_roc_national_assembly_hall = {
 
 	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"
 }
+
+building_roc_central_bank = {
+	building_group = bg_monuments
+	icon = "gfx/interface/icons/building_icons/building_financial_district.dds"
+	city_type = city
+	levels_per_mesh = 1
+	generates_residences = no
+	expandable = no
+	downsizeable = no
+	unique = yes
+
+	production_method_groups = {
+		pmg_base_building_roc_central_bank
+	}
+
+	unlocking_technologies = {
+		central_banking
+	}
+
+	required_construction = construction_cost_monument
+
+	potential = {
+		state_region = s:STATE_SUZHOU
+	}
+
+	possible = {
+		owner ?= {
+			OR = {
+				has_law_or_variant = law_type:law_presidential_republic
+				has_law_or_variant = law_type:law_parliamentary_republic
+			}
+			country_has_primary_culture = cu:han
+		}
+	}
+
+	ai_value = 5000
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"
+}

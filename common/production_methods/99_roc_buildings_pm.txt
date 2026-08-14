@@ -105,3 +105,29 @@ pm_default_building_roc_national_assembly_hall = {
 		}
 	}
 }
+
+pm_default_building_roc_central_bank = {
+	texture = "gfx/interface/icons/production_method_icons/wonders.dds"
+	is_hidden_when_unavailable = yes
+
+	country_modifiers = {
+		workforce_scaled = {
+			country_minting_mult = 0.10
+			country_loan_interest_rate_add = -0.05
+			country_authority_add = 100
+		}
+	}
+
+	state_modifiers = {
+		workforce_scaled = {
+			state_max_trade_advantage_from_capacity_add = 0.05
+		}
+	}
+
+	building_modifiers = {
+		level_scaled = {
+			building_employment_bureaucrats_add = 200
+			building_employment_clerks_add = 800
+		}
+	}
+}

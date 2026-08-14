@@ -103,6 +103,7 @@ government. Existing vanilla icons and backgrounds are reused, no new art requir
 | Shanghai Stock Exchange | Suzhou (Shanghai) | +50 prestige; +10% capitalist / aristocrat investment pool contribution efficiency; 800 clerk / 100 capitalist / 100 aristocrat jobs | Han primary culture; Republic government (Presidential / Parliamentary); Mutual Funds technology; requires Interventionism or Laissez-Faire law |
 | Academia Sinica | Nanjing | +1,000 academic jobs; +10% tech spread; +10% innovation; +20 max innovation investment | Han primary culture; Republic government (Presidential / Parliamentary); Dialectics technology |
 | National Assembly Hall | Nanjing | +100 authority; +10 legitimacy from votes; -10% legitimacy penalty from ideological incoherence; 200 bureaucrat / 800 clerk jobs | Han primary culture; Republic government (Presidential / Parliamentary); Steel-Frame Buildings technology |
+| Central Bank | Suzhou (Shanghai) | +200 bureaucrat / 800 clerk jobs; +100 authority; +10% minting; -5% loan interest rate; +5% max trade advantage from capacity | Han primary culture; Republic government (Presidential / Parliamentary); Central Banking technology |
 
 ## Requirements
 
