@@ -410,3 +410,68 @@ company_roc_yanchang_petroleum = {
 		value = 3 # Higher base value for flavored companies
 	}
 }
+
+# Shanghai Electric Company
+company_roc_shanghai_electric = {
+	icon = "gfx/interface/icons/company_icons/basic_electrics.dds"
+	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
+
+	flavored_company = yes
+
+	preferred_headquarters = { STATE_SUZHOU }
+
+	building_types = {
+		building_power_plant
+	}
+
+	potential = {
+		OR = {
+			country_has_primary_culture = cu:han
+			country_has_primary_culture = cu:manchu
+		}
+	}
+
+	attainable = {
+		hidden_trigger = { # Hide attainable if it's always fulfilled by possible
+			any_scope_state = {
+				state_region = s:STATE_SUZHOU
+			}
+		}
+	}
+
+	possible = {
+		any_scope_state = {
+			state_region = s:STATE_SUZHOU
+			is_incorporated = yes
+			any_scope_building = {
+				is_building_type = building_power_plant
+				level >= 5
+			}
+		}
+	}
+
+	prosperity_modifier = {
+		building_power_plant_throughput_add = 0.10
+	}
+
+	ai_will_do = {
+		any_scope_state = {
+			state_region = s:STATE_SUZHOU
+			is_incorporated = yes
+		}
+	}
+
+	ai_construction_targets = {
+		building_power_plant = {
+			level = 5
+			state_trigger = {
+				state_region = s:STATE_SUZHOU
+				is_incorporated = yes
+			}
+		}
+	}
+
+	ai_weight = {
+		value = 3 # Higher base value for flavored companies
+	}
+}

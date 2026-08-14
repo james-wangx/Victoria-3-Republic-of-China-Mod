@@ -38,6 +38,9 @@ for Qing China.
 - Adds a China-specific **Yanchang Petroleum Company** (`company_roc_yanchang_petroleum`) with
   oil rigs. It gains +20% oil extraction throughput while prosperous and becomes available once
   an incorporated Shaanxi (Xi'an) state has an oil rig at level 5 or higher.
+- Adds a China-specific **Shanghai Electric Company** (`company_roc_shanghai_electric`) with
+  power plants. It gains +10% power plant throughput while prosperous and becomes available once
+  an incorporated Suzhou state has a power plant at level 5 or higher.
 
 ## Requirements
 
