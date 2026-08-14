@@ -41,8 +41,9 @@ for Qing China.
   tech is researched and an incorporated Shandong or Suzhou state has a food industry building
   at level 5 or higher.
 - Adds a China-specific **Yanchang Petroleum Company** (`company_roc_yanchang_petroleum`) with
-  oil rigs. It gains +20% oil extraction throughput while prosperous and becomes available once
-  an incorporated Shaanxi (Xi'an) state has an oil rig at level 5 or higher.
+  oil rigs and power plant extensions. It gains +20% oil extraction throughput while prosperous
+  and becomes available once an incorporated Shaanxi (Xi'an) state has an oil rig at level 5 or
+  higher.
 - Adds a China-specific **Shanghai Electric Company** (`company_roc_shanghai_electric`) with
   power plants and railways, plus electrics industry extensions. It gains +10% power plant and
   +10% railway throughput while prosperous and becomes available once an incorporated Suzhou
@@ -53,10 +54,10 @@ for Qing China.
   the mechanical tools tech is researched and an incorporated Suzhou state has a paper mill at
   level 5 or higher.
 - Adds a China-specific **China Merchants' Steam Navigation Company**
-  (`company_roc_china_merchants`) with trade centers and ports. It produces a swift merchant
-  marine as a prestige good, gains +10% trade advantage and +10% port throughput while
-  prosperous, and becomes available once an incorporated Suzhou state has both a trade center
-  and a port at level 5 or higher.
+  (`company_roc_china_merchants`) with trade centers and ports, plus shipyard extensions. It
+  produces a swift merchant marine as a prestige good, gains +10% trade advantage and +10% port
+  throughput while prosperous, and becomes available once an incorporated Suzhou state has both
+  a trade center and a port at level 5 or higher.
 - Adds a China-specific **Jiangnan Arsenal** (`company_roc_jiangnan_arsenal`) with motor
   industry and tooling workshop core buildings, plus automotive industry extensions. It
   produces Jiangnan engines and precision tools as prestige goods, gains +10% capital ship

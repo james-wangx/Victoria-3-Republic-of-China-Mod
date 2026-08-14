@@ -360,6 +360,10 @@ company_roc_yanchang_petroleum = {
 		building_oil_rig
 	}
 
+	extension_building_types = {
+		building_power_plant
+	}
+
 	potential = {
 		OR = {
 			country_has_primary_culture = cu:han
@@ -571,6 +575,10 @@ company_roc_china_merchants = {
 	building_types = {
 		building_trade_center
 		building_port
+	}
+
+	extension_building_types = {
+		building_shipyard
 	}
 
 	possible_prestige_goods = {
