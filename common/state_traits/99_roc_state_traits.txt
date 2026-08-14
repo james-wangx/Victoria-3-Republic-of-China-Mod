@@ -1,5 +1,6 @@
 ﻿# ROC state traits
 # Redefines selected vanilla state traits and adds ROC-specific state traits.
+# Traits are grouped in this order: rivers, agriculture, mining, ports.
 
 # Yellow River: keep the infrastructure bonus, remove the market access price impact.
 REPLACE_OR_CREATE:state_trait_yellow_river = {
@@ -26,6 +27,16 @@ state_trait_roc_heilongjiang = {
 
 	modifier = {
 		state_infrastructure_add = 15
+	}
+}
+
+# Mongolian Plateau Deposits: coal and iron across Uliastai and Urga.
+state_trait_roc_mongolian_plateau_deposits = {
+	icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
+
+	modifier = {
+		building_coal_mine_throughput_add = 0.1
+		building_iron_mine_throughput_add = 0.1
 	}
 }
 
