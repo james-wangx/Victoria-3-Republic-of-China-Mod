@@ -2,9 +2,19 @@
 
 <p align="center"><img src="thumbnail.png" width="200" alt="ROC"></p>
 
+<p align="center">
+  <img src="https://img.shields.io/badge/Game-Victoria%203-blue" alt="Game">
+  <img src="https://img.shields.io/badge/Game%20Version-1.13.10%20Matcha-blue" alt="Game Version">
+  <img src="https://img.shields.io/badge/Mod%20Version-1.13.10-blueviolet" alt="Mod Version">
+  <img src="https://img.shields.io/badge/License-MIT-yellow" alt="License">
+  <img src="https://img.shields.io/badge/Language-English%20%7C%20ZH--CN-lightgrey" alt="Language">
+</p>
+
 A Victoria 3 (1.13.10 Matcha) mod that adds the **Republic of China (ROC)** as a formable nation
 for Qing China, together with China-specific companies, regional state traits and unique
 buildings.
+
+**Tags:** Formable Nation · Companies · State Traits · Unique Buildings
 
 > 中文版说明见 [README.zh-CN.md](README.zh-CN.md) / Chinese version: [README.zh-CN.md](README.zh-CN.md)
 

@@ -2,7 +2,17 @@
 
 <p align="center"><img src="thumbnail.png" width="200" alt="ROC"></p>
 
+<p align="center">
+  <img src="https://img.shields.io/badge/Game-Victoria%203-blue" alt="游戏">
+  <img src="https://img.shields.io/badge/Game%20Version-1.13.10%20Matcha-blue" alt="游戏版本">
+  <img src="https://img.shields.io/badge/Mod%20Version-1.13.10-blueviolet" alt="Mod 版本">
+  <img src="https://img.shields.io/badge/License-MIT-yellow" alt="许可证">
+  <img src="https://img.shields.io/badge/Language-English%20%7C%20ZH--CN-lightgrey" alt="语言">
+</p>
+
 一个为 **维多利亚3（1.13.10 Matcha）** 制作、为清朝中国新增 **中华民国（ROC）** 成立国家，并加入中国专属公司、地区特质与独特建筑的 Mod。
+
+**标签：** 成立国家 · 公司 · 地区特质 · 独特建筑
 
 > English version: [README.md](README.md)
 
