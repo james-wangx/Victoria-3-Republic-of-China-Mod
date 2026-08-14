@@ -3,7 +3,8 @@
 <p align="center"><img src="thumbnail.png" width="200" alt="ROC"></p>
 
 A Victoria 3 (1.13.10 Matcha) mod that adds the **Republic of China (ROC)** as a formable nation
-for Qing China, together with China-specific companies and regional state traits.
+for Qing China, together with China-specific companies, regional state traits and unique
+buildings.
 
 > 中文版说明见 [README.zh-CN.md](README.zh-CN.md) / Chinese version: [README.zh-CN.md](README.zh-CN.md)
 
@@ -92,7 +93,7 @@ Twenty state traits: nineteen ROC-specific traits plus a rebalanced vanilla Yell
 
 ### Unique buildings
 
-Three unique (monument) buildings tied to the Republic of China era. They use the
+Six unique (monument) buildings tied to the Republic of China era. They use the
 `bg_monuments` building group, cannot be expanded or downsized, and require a republican
 government. Existing vanilla icons and backgrounds are reused, no new art required.
 
