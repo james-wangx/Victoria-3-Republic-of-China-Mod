@@ -28,3 +28,15 @@ state_trait_roc_heilongjiang = {
 		state_infrastructure_add = 15
 	}
 }
+
+# Shanghai Port: trade, market access and shipping throughput at Shanghai.
+state_trait_roc_shanghai_port = {
+	icon = "gfx/interface/icons/state_trait_icons/natural_harbors.dds"
+
+	modifier = {
+		state_trade_capacity_mult = 0.3
+		state_market_access_price_impact = 0.1
+		building_shipyard_throughput_add = 0.2
+		building_port_throughput_add = 0.2
+	}
+}
