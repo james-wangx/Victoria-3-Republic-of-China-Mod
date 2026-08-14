@@ -652,10 +652,11 @@ company_roc_jiangnan_arsenal = {
 
 	building_types = {
 		building_motor_industry
+		building_tooling_workshop
 	}
 
 	extension_building_types = {
-		building_tooling_workshop
+		building_automotive_industry
 	}
 
 	possible_prestige_goods = {
