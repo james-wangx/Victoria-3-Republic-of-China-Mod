@@ -30,6 +30,7 @@ building_roc_presidential_palace = {
 				has_law_or_variant = law_type:law_presidential_republic
 				has_law_or_variant = law_type:law_parliamentary_republic
 			}
+			country_has_primary_culture = cu:han
 		}
 	}
 
@@ -68,6 +69,7 @@ building_roc_whampoa_military_academy = {
 				has_law_or_variant = law_type:law_presidential_republic
 				has_law_or_variant = law_type:law_parliamentary_republic
 			}
+			country_has_primary_culture = cu:han
 		}
 	}
 
@@ -106,6 +108,7 @@ building_roc_shanghai_stock_exchange = {
 				has_law_or_variant = law_type:law_presidential_republic
 				has_law_or_variant = law_type:law_parliamentary_republic
 			}
+			country_has_primary_culture = cu:han
 			OR = {
 				has_law_or_variant = law_type:law_interventionism
 				has_law_or_variant = law_type:law_laissez_faire

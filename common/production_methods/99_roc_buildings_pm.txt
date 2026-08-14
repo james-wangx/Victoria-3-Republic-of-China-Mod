@@ -6,9 +6,8 @@ pm_default_building_roc_presidential_palace = {
 
 	country_modifiers = {
 		workforce_scaled = {
-			country_legitimacy_headofstate_add = 25
 			country_authority_add = 100
-			country_prestige_add = 100
+			country_prestige_add = 50
 		}
 	}
 
@@ -34,8 +33,9 @@ pm_default_building_roc_whampoa_military_academy = {
 
 	building_modifiers = {
 		level_scaled = {
-			building_employment_officers_add = 300
-			building_employment_soldiers_add = 500
+			building_employment_officers_add = 100
+			building_employment_clerks_add = 100
+			building_employment_soldiers_add = 1800
 			building_training_rate_add = 50
 		}
 	}
@@ -47,14 +47,14 @@ pm_default_building_roc_shanghai_stock_exchange = {
 
 	country_modifiers = {
 		workforce_scaled = {
-			country_prestige_add = 100
+			country_prestige_add = 50
 		}
 	}
 
 	state_modifiers = {
 		workforce_scaled = {
-			state_capitalists_investment_pool_efficiency_mult = 0.15
-			state_aristocrats_investment_pool_efficiency_mult = 0.15
+			state_capitalists_investment_pool_efficiency_mult = 0.10
+			state_aristocrats_investment_pool_efficiency_mult = 0.10
 		}
 	}
 
