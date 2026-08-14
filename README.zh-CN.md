@@ -47,7 +47,7 @@
 
 ### 开局设定
 
-西藏（拉萨与阿里两州）开局直接作为大清的未整合领地，而不是大清的附属国；原版的大清-西藏附庸契约会在开局时移除。
+西藏（拉萨与阿里两州，以及东喜马拉雅原属西藏的部分）开局直接作为大清的未整合领地，而不是大清的附属国；原版的大清-西藏附庸契约会在开局时移除，原西藏地区的人口与建筑保留在大清名下。
 
 ### 公司
 
@@ -142,7 +142,9 @@
 common/country_definitions/      ROC 国家定义（颜色、等级、文化、首都）
 common/country_formation/        ROC 成立国家（文化故土、possible 条件）
 common/dynamic_country_names/    按政府类型变化的国名
-common/history/states/           西藏（拉萨/阿里）作为大清的未整合领地
+common/history/states/           西藏（拉萨/阿里/东喜马拉雅）作为大清的未整合领地
+common/history/pops/             原西藏人口保留在大清名下
+common/history/buildings/        原西藏建筑保留在大清名下
 common/history/diplomacy/        移除原版大清-西藏附庸契约
 common/on_actions/               原版成立链 + 迁都/市场中心效果
 common/flag_definitions/         复用原版中国盾徽的旗帜

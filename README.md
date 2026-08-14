@@ -52,9 +52,10 @@ new graphics assets are required.
 
 ### Game start setup
 
-Tibet (the Lhasa and Ngari states) starts directly as part of Qing China as
-unincorporated territory instead of a Qing subject; the vanilla Qing-Tibet
-vassal pact is removed at game start.
+Tibet (the Lhasa and Ngari states, plus the former Tibetan part of the Eastern
+Himalayas) starts directly as part of Qing China as unincorporated territory
+instead of a Qing subject; the vanilla Qing-Tibet vassal pact is removed, and
+the Tibetan starting pops and buildings are kept under Qing ownership.
 
 ### Companies
 
@@ -156,7 +157,9 @@ government. Existing vanilla icons and backgrounds are reused, no new art requir
 common/country_definitions/      ROC country definition (colors, tier, cultures, capital)
 common/country_formation/        ROC formable nation (culture states, possible)
 common/dynamic_country_names/    Government-type based country names
-common/history/states/           Tibet (Lhasa/Ngari) as unincorporated Qing territory
+common/history/states/           Tibet (Lhasa/Ngari/Eastern Himalayas) as unincorporated Qing territory
+common/history/pops/             Tibetan starting pops kept under Qing ownership
+common/history/buildings/        Tibetan starting buildings kept under Qing ownership
 common/history/diplomacy/        Remove the vanilla Qing-Tibet vassal pact
 common/on_actions/               Vanilla on_country_formed chain + ROC capital/market moves
 common/flag_definitions/         Flags reusing vanilla China coat of arms

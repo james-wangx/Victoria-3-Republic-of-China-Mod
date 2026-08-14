@@ -1,0 +1,115 @@
+﻿# Tibet game-start setup
+# Vanilla building history is keyed by the owning country (region_state:TIB);
+# transfer the starting buildings of the states now owned by Qing to c:CHI.
+# Re-sync with game/common/history/buildings/09_central_asia.txt on game update.
+
+BUILDINGS={
+    s:STATE_LHASA={
+        region_state:CHI={
+            create_building={
+                building="building_government_administration"
+                add_ownership={
+                    country={
+                        country="c:CHI"
+                        levels=1
+                    }
+                }
+                reserves=1
+                activate_production_methods={ "pm_simple_organization" "pm_hereditary_bureaucrats" "pm_religious_bureaucrats" }
+            }
+            create_building={
+                building="building_rye_farm"
+                add_ownership={
+                    building={
+                        type="building_manor_house"
+                        country="c:CHI"
+                        levels=1
+                        region="STATE_LHASA"
+                    }
+                }
+                reserves=1
+                activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled"  }
+            }
+            create_building={
+                building="building_livestock_ranch"
+                add_ownership={
+                    building={
+                        type="building_manor_house"
+                        country="c:CHI"
+                        levels=2
+                        region="STATE_LHASA"
+                    }
+                }
+                reserves=1
+                activate_production_methods={ "pm_open_air_stockyards" "pm_simple_ranch" "pm_standard_fences" "pm_unrefrigerated"  }
+            }
+            create_building={
+                building="building_barrack"
+                add_ownership={
+                    country={
+                        country="c:CHI"
+                        levels=12
+                    }
+                }
+                reserves=1
+                activate_production_methods={ "pm_no_organization" }
+            }
+        }
+    }
+    s:STATE_NGARI={
+        region_state:CHI={
+            create_building={
+                building="building_livestock_ranch"
+                add_ownership={
+                    building={
+                        type="building_manor_house"
+                        country="c:CHI"
+                        levels=1
+                        region="STATE_NGARI"
+                    }
+                }
+                reserves=1
+                activate_production_methods={ "pm_open_air_stockyards" "pm_simple_ranch" "pm_standard_fences" "pm_unrefrigerated"  }
+            }
+            create_building={
+                building="building_barrack"
+                add_ownership={
+                    country={
+                        country="c:CHI"
+                        levels=6
+                    }
+                }
+                reserves=1
+                activate_production_methods={ "pm_no_organization" }
+            }
+        }
+    }
+    s:STATE_EASTERN_HIMALAYAS={
+        region_state:SIK={
+            create_building={
+                building="building_barrack"
+                add_ownership={
+                    country={
+                        country="c:SIK"
+                        levels=1
+                    }
+                }
+                reserves=1
+                activate_production_methods={ "pm_no_organization" }
+            }
+        }
+        region_state:BHU={
+            create_building={
+                building="building_barrack"
+                add_ownership={
+                    country={
+                        country="c:BHU"
+                        levels=2
+                    }
+                }
+                reserves=1
+                activate_production_methods={ "pm_no_organization" }
+            }
+        }
+    }
+}

@@ -1,7 +1,8 @@
 ﻿# Tibet game-start setup
-# Lhasa and Ngari start directly as unincorporated Qing territory instead of a
-# Qing subject, mirroring the vanilla state definitions with ownership changed
-# to c:CHI. Re-sync with game/common/history/states/00_states.txt on game update.
+# Lhasa, Ngari and the former Tibet part of the Eastern Himalayas start directly
+# as unincorporated Qing territory instead of a Qing subject, mirroring the
+# vanilla state definitions with ownership changed to c:CHI. Re-sync with
+# game/common/history/states/00_states.txt on game update.
 
 STATES = {
     s:STATE_LHASA = {
@@ -20,6 +21,22 @@ STATES = {
             state_type = unincorporated
         }
 
+        add_homeland = cu:tibetan
+    }
+    s:STATE_EASTERN_HIMALAYAS = {
+        create_state = {
+            country = c:SIK
+            owned_provinces = { xE0B0E0 }
+        }
+        create_state = {
+            country = c:CHI
+            owned_provinces = { xA1341A x186F38 x525CC9 xA5D54A xF8346B x373402 xD238D2 x8FE067 xD2139B xEB2EA9 x83DFE3 xADDE52 x84F73C x665E5B xF5C0FC x4CBB7C x28F81E xBC0BCD xD2C34D }
+            state_type = unincorporated
+        }
+        create_state = {
+            country = c:BHU
+            owned_provinces = { x388D2C xDA7F32 x665E5B x01C109 xD10C8F x4F99DC x84F73C xE5D3E0 x60B0DF }
+        }
         add_homeland = cu:tibetan
     }
 }

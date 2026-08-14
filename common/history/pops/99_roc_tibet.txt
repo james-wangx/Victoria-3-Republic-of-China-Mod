@@ -1,0 +1,78 @@
+﻿# Tibet game-start setup
+# Vanilla pop history is keyed by the owning country (region_state:TIB); since
+# these states now belong to Qing, recreate the same starting pops under
+# region_state:CHI. Re-sync with game/common/history/pops/09_central_asia.txt
+# on game update.
+
+POPS = {
+    s:STATE_LHASA = {
+        region_state:CHI = {
+            create_pop = {
+                culture = tibetan
+                size = 1720000
+            }
+            create_pop = {
+                culture = han # nanfaren
+                religion = animist
+                size = 100000
+            }
+        }
+    }
+    s:STATE_NGARI = {
+        region_state:CHI = {
+            create_pop = {
+                culture = tibetan
+                size = 824000
+            }
+            create_pop = {
+                culture = han # nanfaren
+                religion = animist
+                size = 42000
+            }
+            create_pop = {
+                culture = kachin
+                size = 24000
+            }
+        }
+    }
+    s:STATE_EASTERN_HIMALAYAS = {
+        region_state:CHI = {
+            create_pop = {
+                culture = naga
+                size = 20102
+            }
+            create_pop = {
+                culture = kachin
+                size = 21022
+            }
+            create_pop = {
+                culture = assamese
+                size = 7012
+            }
+            create_pop = {
+                culture = tibetan
+                size = 102010
+            }
+        }
+        region_state:SIK = {
+            create_pop = {
+                culture = tibetan
+                size = 60301
+            }
+            create_pop = {
+                culture = nepali
+                size = 24091
+            }
+        }
+        region_state:BHU = {
+            create_pop = {
+                culture = tibetan
+                size = 140396
+            }
+            create_pop = {
+                culture = nepali
+                size = 16004
+            }
+        }
+    }
+}
