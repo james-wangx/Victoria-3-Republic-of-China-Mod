@@ -28,8 +28,8 @@
 | 主流文化 | `han`（汉） |
 | 首都 | 南京（`STATE_NANJING`） |
 | 地图颜色 | `{ 23 61 115 }`（蓝色） |
-| 所需领土 | `han` 文化故土（`use_culture_states = yes`） |
-| 所需领土比例 | 60%（`required_states_fraction = 0.6`） |
+| 所需领土 | 大清开局拥有的全部州（含西藏：拉萨、阿里、东喜马拉雅原属西藏部分） |
+| 所需领土比例 | 80%（`required_states_fraction = 0.8`） |
 | 成立条件（`possible`） | 主流文化为汉；`ROC` 尚不存在；实行共和政体（总统制或议会制共和国）；实行普选制 |
 | AI 意愿 | 总是（always yes） |
 

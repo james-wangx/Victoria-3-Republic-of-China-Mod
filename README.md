@@ -30,8 +30,8 @@ buildings.
 | Primary culture | `han` |
 | Capital | Nanjing (`STATE_NANJING`) |
 | Map color | `{ 23 61 115 }` (blue) |
-| Required states | Cultural homelands of the `han` culture (`use_culture_states = yes`) |
-| Required states fraction | 60% (`required_states_fraction = 0.6`) |
+| Required states | All states owned by Qing China at game start (including Tibet: Lhasa, Ngari, and the former Tibetan part of the Eastern Himalayas) |
+| Required states fraction | 80% (`required_states_fraction = 0.8`) |
 | Formation conditions (`possible`) | Primary culture is `han`; `ROC` does not exist yet; government is a republic (Presidential or Parliamentary Republic); voting franchise is enabled |
 | AI will do | Always |
 
