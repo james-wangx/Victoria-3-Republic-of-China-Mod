@@ -29,7 +29,6 @@ building_roc_presidential_palace = {
 			OR = {
 				has_law_or_variant = law_type:law_presidential_republic
 				has_law_or_variant = law_type:law_parliamentary_republic
-				has_law_or_variant = law_type:law_council_republic
 			}
 		}
 	}
@@ -89,7 +88,7 @@ building_roc_shanghai_stock_exchange = {
 	}
 
 	unlocking_technologies = {
-		stock_exchange
+		mutual_funds
 	}
 
 	required_construction = construction_cost_monument
@@ -104,6 +103,12 @@ building_roc_shanghai_stock_exchange = {
 				has_law_or_variant = law_type:law_presidential_republic
 				has_law_or_variant = law_type:law_parliamentary_republic
 				has_law_or_variant = law_type:law_council_republic
+			}
+			NOT = {
+				OR = {
+					has_law_or_variant = law_type:law_traditionalism
+					has_law_or_variant = law_type:law_command_economy
+				}
 			}
 		}
 	}
