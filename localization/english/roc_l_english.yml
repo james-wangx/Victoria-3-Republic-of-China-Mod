@@ -35,3 +35,7 @@
  pm_default_building_roc_presidential_palace: "Presidential Palace"
  pm_default_building_roc_whampoa_military_academy: "Whampoa Military Academy"
  pm_default_building_roc_shanghai_stock_exchange: "Shanghai Stock Exchange"
+ building_roc_academia_sinica: "Academia Sinica"
+ building_roc_national_assembly_hall: "National Assembly Hall"
+ pm_default_building_roc_academia_sinica: "Academia Sinica"
+ pm_default_building_roc_national_assembly_hall: "National Assembly Hall"

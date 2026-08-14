@@ -66,3 +66,42 @@ pm_default_building_roc_shanghai_stock_exchange = {
 		}
 	}
 }
+
+pm_default_building_roc_academia_sinica = {
+	texture = "gfx/interface/icons/production_method_icons/wonders.dds"
+	is_hidden_when_unavailable = yes
+
+	country_modifiers = {
+		workforce_scaled = {
+			country_tech_spread_mult = 0.10
+			country_weekly_innovation_mult = 0.10
+			country_weekly_innovation_max_add = 20
+		}
+	}
+
+	building_modifiers = {
+		level_scaled = {
+			building_employment_academics_add = 1000
+		}
+	}
+}
+
+pm_default_building_roc_national_assembly_hall = {
+	texture = "gfx/interface/icons/production_method_icons/wonders.dds"
+	is_hidden_when_unavailable = yes
+
+	country_modifiers = {
+		workforce_scaled = {
+			country_authority_add = 100
+			country_legitimacy_govt_total_votes_add = 10
+			country_legitimacy_ideological_incoherence_mult = -0.10
+		}
+	}
+
+	building_modifiers = {
+		level_scaled = {
+			building_employment_bureaucrats_add = 200
+			building_employment_clerks_add = 800
+		}
+	}
+}

@@ -35,3 +35,7 @@
  pm_default_building_roc_presidential_palace: "总统府"
  pm_default_building_roc_whampoa_military_academy: "黄埔军校"
  pm_default_building_roc_shanghai_stock_exchange: "上海证券交易所"
+ building_roc_academia_sinica: "中央研究院"
+ building_roc_national_assembly_hall: "国民大会堂"
+ pm_default_building_roc_academia_sinica: "中央研究院"
+ pm_default_building_roc_national_assembly_hall: "国民大会堂"
