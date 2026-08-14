@@ -90,6 +90,18 @@ Twenty state traits: nineteen ROC-specific traits plus a rebalanced vanilla Yell
 | North China Plain | Agriculture | Beijing, Hebei, Shandong, Northern Anhui, Henan | +10% agriculture throughput; +10% plantation throughput |
 | Shanghai Port | Port | Suzhou | +30% trade capacity; −10% market access price impact; +20% shipyard throughput; +20% port throughput |
 
+### Unique buildings
+
+Three unique (monument) buildings tied to the Republic of China era. They use the
+`bg_monuments` building group, cannot be expanded or downsized, and require a republican
+government. Existing vanilla icons and backgrounds are reused, no new art required.
+
+| Building | Location (state) | Effects | Requirements |
+| --- | --- | --- | --- |
+| Presidential Palace | Nanjing | +25 head-of-state legitimacy; +40 authority; +30 prestige; 500 bureaucrat / 200 clergymen jobs | Republic government (Presidential / Parliamentary / Council) |
+| Whampoa Military Academy | Guangdong | +10% army offense; +10% army defense; 300 officer / 500 soldier jobs | Republic government; Military Drill technology |
+| Shanghai Stock Exchange | Suzhou (Shanghai) | +15% capitalist / aristocrat investment pool efficiency; +30 prestige; 500 clerk / 300 shopkeeper jobs | Republic government; Central Banking technology |
+
 ## Requirements
 
 - Victoria 3 version **1.13.10 (Matcha)**
@@ -122,6 +134,9 @@ common/flag_definitions/         Flags reusing vanilla China coat of arms
 common/company_types/            ROC company definitions
 common/prestige_goods/           Custom ROC prestige goods
 common/state_traits/             Rebalanced Yellow River trait + ROC state traits
+common/buildings/                ROC unique building definitions
+common/production_methods/       ROC unique building production methods
+common/production_method_groups/ ROC unique building PM groups
 map_data/state_regions/          Overridden East Asian states with ROC traits attached
 localization/english/            English localization
 localization/simp_chinese/       Simplified Chinese localization

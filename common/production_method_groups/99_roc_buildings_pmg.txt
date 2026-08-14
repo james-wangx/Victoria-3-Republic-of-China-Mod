@@ -1,0 +1,37 @@
+﻿# Production method groups for ROC unique buildings.
+
+pmg_base_building_roc_presidential_palace = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	ai_selection = most_productive
+	is_hidden_when_unavailable = yes
+
+	production_methods = {
+		pm_default_building_roc_presidential_palace
+		pm_monument_prestige_only
+		pm_monument_no_effects
+	}
+}
+
+pmg_base_building_roc_whampoa_military_academy = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	ai_selection = most_productive
+	is_hidden_when_unavailable = yes
+
+	production_methods = {
+		pm_default_building_roc_whampoa_military_academy
+		pm_monument_prestige_only
+		pm_monument_no_effects
+	}
+}
+
+pmg_base_building_roc_shanghai_stock_exchange = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	ai_selection = most_productive
+	is_hidden_when_unavailable = yes
+
+	production_methods = {
+		pm_default_building_roc_shanghai_stock_exchange
+		pm_monument_prestige_only
+		pm_monument_no_effects
+	}
+}
