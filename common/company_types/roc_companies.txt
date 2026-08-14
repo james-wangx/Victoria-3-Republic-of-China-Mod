@@ -90,16 +90,17 @@ TRY_REPLACE:company_hanyang_arsenal = {
 
 	building_types = {
 		building_arms_industry
-		building_artillery_foundry
+		building_explosives_factory
 		building_munition_plant
 	}
 
 	extension_building_types = {
-		building_explosives_factory
+		building_artillery_foundry
 	}
 
 	possible_prestige_goods = {
 		prestige_good_roc_hanyang_rifle
+		prestige_good_generic_explosives
 	}
 
 	potential = {
@@ -659,6 +660,7 @@ company_roc_jiangnan_arsenal = {
 
 	possible_prestige_goods = {
 		prestige_good_roc_jiangnan_engines
+		prestige_good_generic_tools
 	}
 
 	potential = {

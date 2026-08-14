@@ -24,9 +24,11 @@ for Qing China.
   mines, iron mines and steel mills. It produces refined steel as a prestige good and becomes
   available once the open hearth process is researched and an incorporated Suzhou state has a
   steel mill at level 5 or higher.
-- Replaces the vanilla **Hanyang Arsenal** with a modified version: it now requires the
-  bolt-action rifle tech, grants +10% army offense and +10% army defense, and can produce the
-  **Hanyang-made rifle** prestige good.
+- Replaces the vanilla **Hanyang Arsenal** with a modified version: arms industries,
+  explosives factories and munition plants are core buildings, artillery foundries are
+  extensions, it requires the bolt-action rifle tech, grants +10% army offense and +10% army
+  defense, and can produce the **Hanyang-made rifle** and **high-grade explosives** prestige
+  goods.
 - Replaces the vanilla **Jiangnan Weaving Bureaus** with a modified version: cotton
   plantations are now core buildings, dye plantations are extension buildings, and the
   prosperity modifier boosts textile mills and silk plantations by +10% each.
@@ -56,10 +58,10 @@ for Qing China.
   prosperous, and becomes available once an incorporated Suzhou state has both a trade center
   and a port at level 5 or higher.
 - Adds a China-specific **Jiangnan Arsenal** (`company_roc_jiangnan_arsenal`) with motor
-  industry buildings and tooling workshop extensions. It produces Jiangnan engines as a
-  prestige good, gains +10% capital ship construction efficiency and +10% motor industry
-  throughput while prosperous, and becomes available once an incorporated Suzhou state has a
-  motor industry building at level 5 or higher.
+  industry buildings and tooling workshop extensions. It produces Jiangnan engines and
+  precision tools as prestige goods, gains +10% capital ship construction efficiency and +10%
+  motor industry throughput while prosperous, and becomes available once an incorporated Suzhou
+  state has a motor industry building at level 5 or higher.
 
 ## Requirements
 
@@ -90,8 +92,8 @@ common/country_definitions/      ROC country definition (colors, tier, cultures,
 common/country_formation/        ROC formable nation (culture states, possible)
 common/dynamic_country_names/    Government-type based country names
 common/flag_definitions/         Flags reusing vanilla China coat of arms
-common/company_types/            Hanyeping Coal and Iron Company definition
-common/prestige_goods/           Hanyang-made rifle prestige good
+common/company_types/            ROC company definitions
+common/prestige_goods/           Custom ROC prestige goods
 localization/english/            English localization
 localization/simp_chinese/       Simplified Chinese localization
 ```
