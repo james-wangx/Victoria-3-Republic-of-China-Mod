@@ -1,6 +1,6 @@
 ﻿# ROC state traits
 # Redefines selected vanilla state traits and adds ROC-specific state traits.
-# Traits are grouped in this order: rivers, agriculture, mining, ports.
+# Traits are grouped in this order: rivers, mining, agriculture, ports.
 
 # Yellow River: keep the infrastructure bonus, remove the market access price impact.
 REPLACE_OR_CREATE:state_trait_yellow_river = {
@@ -27,38 +27,6 @@ state_trait_roc_heilongjiang = {
 
 	modifier = {
 		state_infrastructure_add = 15
-	}
-}
-
-# Agriculture
-
-# Northeast Black Soil: one of the world's major black soil belts.
-state_trait_roc_northeast_black_soil = {
-	icon = "gfx/interface/icons/state_trait_icons/good_soils.dds"
-
-	modifier = {
-		building_group_bg_agriculture_throughput_add = 0.2
-		building_group_bg_plantations_throughput_add = 0.2
-	}
-}
-
-# Jiangnan Land of Fish and Rice: the fertile lower Yangtze region.
-state_trait_roc_jiangnan = {
-	icon = "gfx/interface/icons/state_trait_icons/good_soils.dds"
-
-	modifier = {
-		building_group_bg_agriculture_throughput_add = 0.2
-		building_group_bg_plantations_throughput_add = 0.2
-	}
-}
-
-# North China Plain: the great wheat and cotton plain from Beijing to Henan.
-state_trait_roc_north_china_plain = {
-	icon = "gfx/interface/icons/state_trait_icons/good_soils.dds"
-
-	modifier = {
-		building_group_bg_agriculture_throughput_add = 0.1
-		building_group_bg_plantations_throughput_add = 0.1
 	}
 }
 
@@ -177,6 +145,38 @@ state_trait_roc_shenfu_coalfield = {
 
 	modifier = {
 		building_coal_mine_throughput_add = 0.2
+	}
+}
+
+# Agriculture
+
+# Northeast Black Soil: one of the world's major black soil belts.
+state_trait_roc_northeast_black_soil = {
+	icon = "gfx/interface/icons/state_trait_icons/good_soils.dds"
+
+	modifier = {
+		building_group_bg_agriculture_throughput_add = 0.2
+		building_group_bg_plantations_throughput_add = 0.2
+	}
+}
+
+# Jiangnan Land of Fish and Rice: the fertile lower Yangtze region.
+state_trait_roc_jiangnan = {
+	icon = "gfx/interface/icons/state_trait_icons/good_soils.dds"
+
+	modifier = {
+		building_group_bg_agriculture_throughput_add = 0.2
+		building_group_bg_plantations_throughput_add = 0.2
+	}
+}
+
+# North China Plain: the great wheat and cotton plain from Beijing to Henan.
+state_trait_roc_north_china_plain = {
+	icon = "gfx/interface/icons/state_trait_icons/good_soils.dds"
+
+	modifier = {
+		building_group_bg_agriculture_throughput_add = 0.1
+		building_group_bg_plantations_throughput_add = 0.1
 	}
 }
 
