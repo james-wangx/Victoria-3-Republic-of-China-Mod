@@ -35,6 +35,9 @@ for Qing China.
   good, gains +10% trade advantage while prosperous, and becomes available once the canneries
   tech is researched and an incorporated Shandong or Suzhou state has a food industry building
   at level 5 or higher.
+- Adds a China-specific **Yanchang Petroleum Company** (`company_roc_yanchang_petroleum`) with
+  oil rigs. It gains +20% oil extraction throughput while prosperous and becomes available once
+  an incorporated Shaanxi (Xi'an) state has an oil rig at level 5 or higher.
 
 ## Requirements
 
