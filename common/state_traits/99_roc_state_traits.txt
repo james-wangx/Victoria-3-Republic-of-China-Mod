@@ -153,15 +153,6 @@ state_trait_roc_karamay_oil = {
 	}
 }
 
-# Shengli Oilfield: the Shengli oilfield in Shandong.
-state_trait_roc_shengli_oil = {
-	icon = "gfx/interface/icons/state_trait_icons/tropical_climate.dds"
-
-	modifier = {
-		building_group_bg_oil_extraction_throughput_add = 0.1
-	}
-}
-
 # Bayan Obo: iron-rare earth symbiosis deposit, the world's largest rare earth source.
 state_trait_roc_bayan_obo = {
 	icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
@@ -177,15 +168,6 @@ state_trait_roc_kailuan_coal = {
 
 	modifier = {
 		building_coal_mine_throughput_add = 0.1
-	}
-}
-
-# Zhaoyuan Gold: China's foremost gold-producing county in Shandong.
-state_trait_roc_zhaoyuan_gold = {
-	icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
-
-	modifier = {
-		building_gold_mine_throughput_add = 0.1
 	}
 }
 
