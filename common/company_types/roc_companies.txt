@@ -759,7 +759,7 @@ TRY_REPLACE:company_foochow_arsenal = {
 	}
 
 	prosperity_modifier = {
-		country_ship_group_capital_ships_construction_efficiency_add = 0.10
+		country_ship_group_supply_ships_construction_efficiency_add = 0.10
 		building_shipyard_throughput_add = 0.10
 	}
 

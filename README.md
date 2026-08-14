@@ -31,7 +31,7 @@ for Qing China.
   plantations are now core buildings, dye plantations are extension buildings, and the
   prosperity modifier boosts textile mills and silk plantations by +10% each.
 - Replaces the vanilla **Foochow Arsenal** with a modified version: shipyards are the core
-  building, motor industries are extensions, and the prosperity modifier grants +10% capital
+  building, motor industries are extensions, and the prosperity modifier grants +10% supply
   ship construction efficiency and +10% shipyard throughput.
 - Adds a China-specific **Taikang Food Company** (`company_roc_taikang_foods`) with food
   industry buildings and fishing wharf extensions. It produces gourmet groceries as a prestige
