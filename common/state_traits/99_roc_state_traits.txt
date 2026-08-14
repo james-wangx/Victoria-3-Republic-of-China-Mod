@@ -40,6 +40,96 @@ state_trait_roc_mongolian_plateau_deposits = {
 	}
 }
 
+# Anshan-Benxi Iron: iron mines around Anshan and Benxi in Liaoning.
+state_trait_roc_anshan_iron = {
+	icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
+
+	modifier = {
+		building_iron_mine_throughput_add = 0.1
+	}
+}
+
+# Fushun Coal: the Fushun coalfield in Liaoning.
+state_trait_roc_fushun_coal = {
+	icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
+
+	modifier = {
+		building_coal_mine_throughput_add = 0.1
+	}
+}
+
+# Datong Coal: the Datong coalfield in Shanxi.
+state_trait_roc_datong_coal = {
+	icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
+
+	modifier = {
+		building_coal_mine_throughput_add = 0.1
+	}
+}
+
+# Pingxiang Coal: the Pingxiang coalfield in Jiangxi.
+state_trait_roc_pingxiang_coal = {
+	icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
+
+	modifier = {
+		building_coal_mine_throughput_add = 0.1
+	}
+}
+
+# Daye Iron: iron mines around Daye in Hubei.
+state_trait_roc_daye_iron = {
+	icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
+
+	modifier = {
+		building_iron_mine_throughput_add = 0.1
+	}
+}
+
+# Panzhihua Iron: iron mines around Panzhihua in Sichuan.
+state_trait_roc_panzhihua_iron = {
+	icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
+
+	modifier = {
+		building_iron_mine_throughput_add = 0.1
+	}
+}
+
+# Yumen Oilfield: China's first oilfield in Gansu.
+state_trait_roc_yumen_oil = {
+	icon = "gfx/interface/icons/state_trait_icons/tropical_climate.dds"
+
+	modifier = {
+		building_oil_rig_throughput_add = 0.1
+	}
+}
+
+# Daqing Oilfield: one of the world's largest oilfields in Heilongjiang.
+state_trait_roc_daqing_oil = {
+	icon = "gfx/interface/icons/state_trait_icons/tropical_climate.dds"
+
+	modifier = {
+		building_oil_rig_throughput_add = 0.2
+	}
+}
+
+# Karamay Oilfield: the Karamay oilfield in northern Xinjiang.
+state_trait_roc_karamay_oil = {
+	icon = "gfx/interface/icons/state_trait_icons/tropical_climate.dds"
+
+	modifier = {
+		building_oil_rig_throughput_add = 0.1
+	}
+}
+
+# Shengli Oilfield: the Shengli oilfield in Shandong.
+state_trait_roc_shengli_oil = {
+	icon = "gfx/interface/icons/state_trait_icons/tropical_climate.dds"
+
+	modifier = {
+		building_oil_rig_throughput_add = 0.1
+	}
+}
+
 # Shanghai Port: trade, market access and shipping throughput at Shanghai.
 state_trait_roc_shanghai_port = {
 	icon = "gfx/interface/icons/state_trait_icons/natural_harbors.dds"
