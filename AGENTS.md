@@ -17,9 +17,9 @@
 
 - When the game updates, re-sync every state definition overridden in
   `map_data/state_regions/99_roc_east_asia.txt` with the matching vanilla state in
-  `game/map_data/state_regions/11_east_asia.txt` (provinces, arable land, resources,
-  city/port/farm/mine/wood, IDs, etc.), keeping only the mod-specific additions such as
-  the `state_trait_roc_*` entries in the `traits` block.
+  `game/map_data/state_regions/11_east_asia.txt` or `15_russia.txt` (provinces, arable
+  land, resources, city/port/farm/mine/wood, IDs, etc.), keeping only the mod-specific
+  additions such as the `state_trait_roc_*` entries in the `traits` block.
 
 ## Installed mods
 
