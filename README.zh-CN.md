@@ -33,6 +33,8 @@
 | 成立条件（`possible`） | 主流文化为汉；`ROC` 尚不存在；实行共和政体（总统制或议会制共和国）；实行普选制 |
 | AI 意愿 | 总是（always yes） |
 
+成立中华民国时，首都将迁往南京（`STATE_NANJING`），市场中心将迁往苏州（`STATE_SUZHOU`）。
+
 国名随政体变化，与原版 `CHI` 行为一致：
 
 | 政体 | 国名 |
@@ -133,6 +135,7 @@
 common/country_definitions/      ROC 国家定义（颜色、等级、文化、首都）
 common/country_formation/        ROC 成立国家（文化故土、possible 条件）
 common/dynamic_country_names/    按政府类型变化的国名
+common/on_actions/               成立时效果（迁都、迁移市场中心）
 common/flag_definitions/         复用原版中国盾徽的旗帜
 common/company_types/            中华民国公司定义
 common/prestige_goods/           自定义声望商品

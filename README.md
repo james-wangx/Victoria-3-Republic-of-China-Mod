@@ -35,6 +35,9 @@ buildings.
 | Formation conditions (`possible`) | Primary culture is `han`; `ROC` does not exist yet; government is a republic (Presidential or Parliamentary Republic); voting franchise is enabled |
 | AI will do | Always |
 
+On formation, the country's capital is moved to Nanjing (`STATE_NANJING`) and its market
+capital is moved to Suzhou (`STATE_SUZHOU`).
+
 The country name changes with the government type, mirroring vanilla `CHI` behavior:
 
 | Government type | Country name |
@@ -144,6 +147,7 @@ government. Existing vanilla icons and backgrounds are reused, no new art requir
 common/country_definitions/      ROC country definition (colors, tier, cultures, capital)
 common/country_formation/        ROC formable nation (culture states, possible)
 common/dynamic_country_names/    Government-type based country names
+common/on_actions/               On-formation effects (capital and market capital moves)
 common/flag_definitions/         Flags reusing vanilla China coat of arms
 common/company_types/            ROC company definitions
 common/prestige_goods/           Custom ROC prestige goods

@@ -1,0 +1,18 @@
+﻿on_country_formed = {
+	effect = {
+		if = {
+			limit = {
+				c:ROC ?= THIS
+				owns_entire_state_region = STATE_NANJING
+			}
+			set_capital = STATE_NANJING
+		}
+		if = {
+			limit = {
+				c:ROC ?= THIS
+				owns_entire_state_region = STATE_SUZHOU
+			}
+			set_market_capital = STATE_SUZHOU
+		}
+	}
+}
