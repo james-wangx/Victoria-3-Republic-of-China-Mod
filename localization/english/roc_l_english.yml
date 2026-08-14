@@ -24,3 +24,7 @@
  state_trait_roc_daqing_oil: "Daqing Oilfield"
  state_trait_roc_karamay_oil: "Karamay Oilfield"
  state_trait_roc_shengli_oil: "Shengli Oilfield"
+ state_trait_roc_bayan_obo: "Bayan Obo Iron"
+ state_trait_roc_kailuan_coal: "Kailuan Coal"
+ state_trait_roc_zhaoyuan_gold: "Zhaoyuan Gold"
+ state_trait_roc_shenfu_coalfield: "Shenfu-Dongsheng Coalfield"

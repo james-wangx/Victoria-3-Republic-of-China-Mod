@@ -130,6 +130,42 @@ state_trait_roc_shengli_oil = {
 	}
 }
 
+# Bayan Obo: iron-rare earth symbiosis deposit, the world's largest rare earth source.
+state_trait_roc_bayan_obo = {
+	icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
+
+	modifier = {
+		building_iron_mine_throughput_add = 0.2
+	}
+}
+
+# Kailuan Coal: one of China's earliest modernized coalfields in Tangshan.
+state_trait_roc_kailuan_coal = {
+	icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
+
+	modifier = {
+		building_coal_mine_throughput_add = 0.1
+	}
+}
+
+# Zhaoyuan Gold: China's foremost gold-producing county in Shandong.
+state_trait_roc_zhaoyuan_gold = {
+	icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
+
+	modifier = {
+		building_gold_mine_throughput_add = 0.1
+	}
+}
+
+# Shenfu-Dongsheng Coalfield: China's largest coalfield in northern Shaanxi.
+state_trait_roc_shenfu_coalfield = {
+	icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
+
+	modifier = {
+		building_coal_mine_throughput_add = 0.2
+	}
+}
+
 # Shanghai Port: trade, market access and shipping throughput at Shanghai.
 state_trait_roc_shanghai_port = {
 	icon = "gfx/interface/icons/state_trait_icons/natural_harbors.dds"
