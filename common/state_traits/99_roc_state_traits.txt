@@ -30,6 +30,28 @@ state_trait_roc_heilongjiang = {
 	}
 }
 
+# Agriculture
+
+# Northeast Black Soil: one of the world's major black soil belts.
+state_trait_roc_northeast_black_soil = {
+	icon = "gfx/interface/icons/state_trait_icons/good_soils.dds"
+
+	modifier = {
+		building_group_bg_agriculture_throughput_add = 0.2
+		building_group_bg_plantations_throughput_add = 0.2
+	}
+}
+
+# Jiangnan Land of Fish and Rice: the fertile lower Yangtze region.
+state_trait_roc_jiangnan = {
+	icon = "gfx/interface/icons/state_trait_icons/good_soils.dds"
+
+	modifier = {
+		building_group_bg_agriculture_throughput_add = 0.2
+		building_group_bg_plantations_throughput_add = 0.2
+	}
+}
+
 # Mongolian Plateau Deposits: coal and iron across Uliastai and Urga.
 state_trait_roc_mongolian_plateau_deposits = {
 	icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
