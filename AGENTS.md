@@ -13,6 +13,14 @@
   `C:\Program Files (x86)\Steam\steamapps\workshop\content\529340`
 - Current game version: 1.13.10 (Matcha)
 
+## Maintenance
+
+- When the game updates, re-sync every state definition overridden in
+  `map_data/state_regions/99_roc_east_asia.txt` with the matching vanilla state in
+  `game/map_data/state_regions/11_east_asia.txt` (provinces, arable land, resources,
+  city/port/farm/mine/wood, IDs, etc.), keeping only the mod-specific additions such as
+  the `state_trait_roc_*` entries in the `traits` block.
+
 ## Installed mods
 
 Each subfolder under the workshop content directory is named by workshop id; the `name` field in
