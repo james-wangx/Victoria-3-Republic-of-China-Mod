@@ -50,7 +50,7 @@ STATE_SHANDONG = {
     id = 511
     subsistence_building = "building_subsistence_rice_farm"
     provinces = { "x115180" "x16E6F3" "x175EC6" "x1ABD79" "x1D4C25" "x2EF696" "x32CFB2" "x33490F" "x38A73B" "x39F708" "x41FB70" "x4724A9" "x483CDB" "x498F0D" "x50D040" "x55944E" "x599BC4" "x6B8F67" "x6BFF52" "x6DA6F9" "x71C085" "x798677" "x8064F0" "x83EC09" "x90D001" "x9D1474" "xA0CF65" "xAB53A3" "xAC24A6" "xAEDF9B" "xB33A36" "xBAA1D3" "xC13552" "xC14ECA" "xC55E74" "xCF50BF" "xE01180" "xE19708" "xF07810" "xF2D180" }
-    traits = { "state_trait_yellow_river" "state_trait_roc_grand_canal" }
+    traits = { "state_trait_yellow_river" "state_trait_roc_grand_canal" "state_trait_natural_harbors" }
     city = "x9D1474"
     port = "xAC24A6"
     farm = "x599BC4"
@@ -118,6 +118,24 @@ STATE_NANJING = {
         building_logging_camp = 5
     }
 }
+STATE_FUJIAN = {
+    id = 498
+    subsistence_building = "building_subsistence_rice_farm"
+    provinces = { "x13C257" "x1B6AE2" "x1FFEE2" "x2028A1" "x229CC3" "x28B132" "x2D35A0" "x4BB46A" "x50C5FA" "x5469D3" "x553A28" "x67D814" "x70F060" "x77145A" "x813C9B" "x85A9B1" "x876F90" "x8D2979" "x999320" "xA0F0E0" "xA22FB2" "xA9286D" "xB203D2" "xB36BC5" "xB6E7BA" "xBC88D6" "xC4F2DB" "xCDCCF7" "xE006E2" "xE070E0" "xF07060" }
+    traits = { "state_trait_natural_harbors" }
+    city = "xC4F2DB"
+    port = "x67D814"
+    farm = "x2028A1"
+    mine = "xA9286D"
+    wood = "x13C257"
+    arable_land = 400
+    arable_resources = { "building_rice_farm" "building_livestock_ranch" "building_silk_plantation" "building_dye_plantation" "building_tea_plantation" "building_tobacco_plantation" "building_opium_plantation" }
+    capped_resources = {
+        building_logging_camp = 16
+        building_fishing_wharf = 10
+    }
+    naval_exit_id = 3056
+}
 STATE_SUZHOU = {
     id = 512
     subsistence_building = "building_subsistence_rice_farm"
@@ -140,7 +158,7 @@ STATE_ZHEJIANG = {
     id = 499
     subsistence_building = "building_subsistence_rice_farm"
     provinces = { "x217027" "x2238D3" "x241F94" "x301080" "x309000" "x309080" "x38108E" "x3F8010" "x41AD59" "x477C0E" "x5ABF0A" "x5BE9C6" "x6CDE24" "x6F9804" "x6F9BC4" "x7E7930" "x88E7E8" "x8B7CC2" "x9C0372" "xAB5BE9" "xAD0288" "xB01080" "xB09000" "xC7DEC3" "xD493DE" "xDD34F4" "xFE1A9C" }
-    traits = { "state_trait_roc_grand_canal" }
+    traits = { "state_trait_roc_grand_canal" "state_trait_natural_harbors" }
     city = "x241F94"
     port = "x301080"
     farm = "x2238D3"
