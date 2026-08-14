@@ -10,6 +10,10 @@ building_roc_presidential_palace = {
 	downsizeable = no
 	unique = yes
 
+	unlocking_technologies = {
+		nationalism
+	}
+
 	production_method_groups = {
 		pmg_base_building_roc_presidential_palace
 	}
@@ -49,10 +53,6 @@ building_roc_whampoa_military_academy = {
 		pmg_base_building_roc_whampoa_military_academy
 	}
 
-	unlocking_technologies = {
-		military_drill
-	}
-
 	required_construction = construction_cost_monument
 
 	potential = {
@@ -89,7 +89,7 @@ building_roc_shanghai_stock_exchange = {
 	}
 
 	unlocking_technologies = {
-		central_banking
+		stock_exchange
 	}
 
 	required_construction = construction_cost_monument

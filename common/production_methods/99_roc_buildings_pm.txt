@@ -15,7 +15,6 @@ pm_default_building_roc_presidential_palace = {
 	building_modifiers = {
 		level_scaled = {
 			building_employment_bureaucrats_add = 500
-			building_employment_clergymen_add = 200
 		}
 	}
 }
@@ -59,7 +58,6 @@ pm_default_building_roc_shanghai_stock_exchange = {
 	building_modifiers = {
 		level_scaled = {
 			building_employment_clerks_add = 500
-			building_employment_shopkeepers_add = 300
 		}
 	}
 }
