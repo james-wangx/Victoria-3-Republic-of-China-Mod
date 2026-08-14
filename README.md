@@ -20,7 +20,7 @@ for Qing China.
   - Monarchy: **Empire of China** (中华帝国)
   - Communism: **People's Republic of China** (中华人民共和国)
   - Otherwise (default): **Republic of China** (中华民国)
-- Adds a China-specific **Hanyeping Coal and Iron Company** (`company_roc_hanyeping`) with coal
+- Adds a China-specific **Hanyeping Company** (`company_roc_hanyeping`) with coal
   mines, iron mines and steel mills. It produces refined steel as a prestige good and becomes
   available once the open hearth process is researched and an incorporated Suzhou state has a
   steel mill at level 5 or higher.
