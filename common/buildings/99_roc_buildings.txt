@@ -11,7 +11,7 @@ building_roc_presidential_palace = {
 	unique = yes
 
 	unlocking_technologies = {
-		nationalism
+		steel_frame_buildings
 	}
 
 	production_method_groups = {
@@ -135,6 +135,10 @@ building_roc_academia_sinica = {
 		pmg_base_building_roc_academia_sinica
 	}
 
+	unlocking_technologies = {
+		dialectics
+	}
+
 	required_construction = construction_cost_monument
 
 	potential = {
@@ -168,6 +172,10 @@ building_roc_national_assembly_hall = {
 
 	production_method_groups = {
 		pmg_base_building_roc_national_assembly_hall
+	}
+
+	unlocking_technologies = {
+		steel_frame_buildings
 	}
 
 	required_construction = construction_cost_monument
