@@ -20,13 +20,13 @@ prestige_good_roc_processed_food = {
 	texture = "gfx/interface/icons/goods_icons/prestige_goods/generic_groceries_prestige.dds"
 }
 
-# Crafted paper goods prestige good
+# High-speed merchant ship prestige good
 
-prestige_good_roc_crafted_paper = {
+prestige_good_roc_fast_merchant_ship = {
 	possible = {
 		has_dlc_feature = mp1_content
 	}
-	base_good = paper
+	base_good = steamers
 	prestige_bonus = 0.1
-	texture = "gfx/interface/icons/goods_icons/prestige_goods/generic_paper_prestige.dds"
+	texture = "gfx/interface/icons/goods_icons/prestige_goods/clyde_built_liners_prestige.dds"
 }
