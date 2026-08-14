@@ -422,6 +422,11 @@ company_roc_shanghai_electric = {
 
 	building_types = {
 		building_power_plant
+		building_railway
+	}
+
+	extension_building_types = {
+		building_electrics_industry
 	}
 
 	potential = {
@@ -452,6 +457,7 @@ company_roc_shanghai_electric = {
 
 	prosperity_modifier = {
 		building_power_plant_throughput_add = 0.10
+		building_railway_throughput_add = 0.10
 	}
 
 	ai_will_do = {
