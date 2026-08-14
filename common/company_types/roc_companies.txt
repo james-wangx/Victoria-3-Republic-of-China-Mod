@@ -22,6 +22,10 @@ company_roc_hanyeping = {
 		prestige_good_generic_steel
 	}
 
+	prestige_goods_trigger = {
+		always = yes
+	}
+
 	potential = {
 		OR = {
 			country_has_primary_culture = cu:han
@@ -103,6 +107,10 @@ TRY_REPLACE:company_hanyang_arsenal = {
 		prestige_good_generic_explosives
 	}
 
+	prestige_goods_trigger = {
+		always = yes
+	}
+
 	potential = {
 		has_interest_marker_in_region = sr:region_south_china
 	}
@@ -175,6 +183,10 @@ TRY_REPLACE:company_jiangnan_weaving_bureaus = {
 
 	possible_prestige_goods = {
 		prestige_good_suzhou_silk
+	}
+
+	prestige_goods_trigger = {
+		always = yes
 	}
 
 	potential = {
@@ -278,6 +290,10 @@ company_roc_taikang_foods = {
 
 	possible_prestige_goods = {
 		prestige_good_generic_groceries
+	}
+
+	prestige_goods_trigger = {
+		always = yes
 	}
 
 	potential = {
@@ -508,6 +524,10 @@ company_roc_shanghai_paper = {
 		prestige_good_generic_paper
 	}
 
+	prestige_goods_trigger = {
+		always = yes
+	}
+
 	potential = {
 		OR = {
 			country_has_primary_culture = cu:han
@@ -583,6 +603,10 @@ company_roc_china_merchants = {
 
 	possible_prestige_goods = {
 		prestige_good_generic_merchant_marine
+	}
+
+	prestige_goods_trigger = {
+		always = yes
 	}
 
 	potential = {
@@ -670,6 +694,10 @@ company_roc_jiangnan_arsenal = {
 	possible_prestige_goods = {
 		prestige_good_roc_jiangnan_engines
 		prestige_good_generic_tools
+	}
+
+	prestige_goods_trigger = {
+		always = yes
 	}
 
 	potential = {

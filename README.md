@@ -58,6 +58,10 @@ level 5 or higher in their headquarters state.
 The custom prestige goods (Hanyang Rifle, Jiangnan Engines) require the *Sphere of Influence*
 DLC (`mp1_content`); the other prestige goods reuse vanilla ones.
 
+All companies produce every listed prestige good as soon as they are prosperous
+(`prestige_goods_trigger = { always = yes }`), so companies with multiple prestige goods
+(Hanyang Arsenal, Jiangnan Arsenal) produce all of them.
+
 ### State traits
 
 Twenty state traits: nineteen ROC-specific traits plus a rebalanced vanilla Yellow River trait
