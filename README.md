@@ -99,8 +99,8 @@ government. Existing vanilla icons and backgrounds are reused, no new art requir
 | Building | Location (state) | Effects | Requirements |
 | --- | --- | --- | --- |
 | Presidential Palace | Nanjing | +25 head-of-state legitimacy; +100 authority; +100 prestige; 800 clerk / 200 bureaucrat jobs; +20% government administration throughput | Republic government (Presidential / Parliamentary); Nationalism technology |
-| Whampoa Military Academy | Guangdong | +20% general rank impact; +20% daily organization gain; +50 training rate; 300 officer / 500 soldier jobs | Republic government (Presidential / Parliamentary / Council) |
-| Shanghai Stock Exchange | Suzhou (Shanghai) | +100 prestige; +15% capitalist / aristocrat investment pool efficiency; 800 clerk / 100 capitalist / 100 aristocrat jobs | Republic government (Presidential / Parliamentary / Council); Mutual Funds technology; not under Traditionalism / Command Economy laws |
+| Whampoa Military Academy | Guangdong | +20% general rank impact; +20% daily organization gain; +50 training rate; 300 officer / 500 soldier jobs | Republic government (Presidential / Parliamentary); General Staff technology |
+| Shanghai Stock Exchange | Suzhou (Shanghai) | +100 prestige; +15% capitalist / aristocrat investment pool efficiency; 800 clerk / 100 capitalist / 100 aristocrat jobs | Republic government (Presidential / Parliamentary / Council); Mutual Funds technology; requires Interventionism or Laissez-Faire law |
 
 ## Requirements
 
