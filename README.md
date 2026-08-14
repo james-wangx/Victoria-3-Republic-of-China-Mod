@@ -52,6 +52,11 @@ for Qing China.
   marine as a prestige good, gains +10% trade advantage and +10% port throughput while
   prosperous, and becomes available once an incorporated Suzhou state has both a trade center
   and a port at level 5 or higher.
+- Adds a China-specific **Jiangnan Arsenal** (`company_roc_jiangnan_arsenal`) with motor
+  industry buildings and tooling workshop extensions. It produces Jiangnan steam engines as a
+  prestige good, gains +10% capital ship construction efficiency and +10% motor industry
+  throughput while prosperous, and becomes available once an incorporated Suzhou state has a
+  motor industry building at level 5 or higher.
 
 ## Requirements
 
