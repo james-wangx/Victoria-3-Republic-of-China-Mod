@@ -276,7 +276,7 @@ company_roc_taikang_foods = {
 	}
 
 	possible_prestige_goods = {
-		prestige_good_roc_processed_food
+		prestige_good_generic_groceries
 	}
 
 	potential = {
@@ -573,7 +573,7 @@ company_roc_china_merchants = {
 	}
 
 	possible_prestige_goods = {
-		prestige_good_roc_fast_merchant_ship
+		prestige_good_generic_merchant_marine
 	}
 
 	potential = {

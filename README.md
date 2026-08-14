@@ -31,7 +31,7 @@ for Qing China.
   plantations are now core buildings, dye plantations are extension buildings, and the
   prosperity modifier boosts textile mills and silk plantations by +10% each.
 - Adds a China-specific **Taikang Food Company** (`company_roc_taikang_foods`) with food
-  industry buildings and fishing wharf extensions. It produces processed food as a prestige
+  industry buildings and fishing wharf extensions. It produces gourmet groceries as a prestige
   good, gains +10% trade advantage while prosperous, and becomes available once the canneries
   tech is researched and an incorporated Shandong or Suzhou state has a food industry building
   at level 5 or higher.
@@ -48,10 +48,10 @@ for Qing China.
   the mechanical tools tech is researched and an incorporated Suzhou state has a paper mill at
   level 5 or higher.
 - Adds a China-specific **China Merchants' Steam Navigation Company**
-  (`company_roc_china_merchants`) with trade centers and ports. It produces high-speed merchant
-  ships as a prestige good, gains +10% trade advantage and +10% port throughput while prosperous,
-  and becomes available once an incorporated Suzhou state has both a trade center and a port at
-  level 5 or higher.
+  (`company_roc_china_merchants`) with trade centers and ports. It produces a swift merchant
+  marine as a prestige good, gains +10% trade advantage and +10% port throughput while
+  prosperous, and becomes available once an incorporated Suzhou state has both a trade center
+  and a port at level 5 or higher.
 
 ## Requirements
 

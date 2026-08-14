@@ -9,24 +9,3 @@ prestige_good_roc_hanyang_rifle = {
 	texture = "gfx/interface/icons/goods_icons/prestige_goods/generic_small_arms_prestige.dds"
 }
 
-# Processed food prestige good
-
-prestige_good_roc_processed_food = {
-	possible = {
-		has_dlc_feature = mp1_content
-	}
-	base_good = groceries
-	prestige_bonus = 0.1
-	texture = "gfx/interface/icons/goods_icons/prestige_goods/generic_groceries_prestige.dds"
-}
-
-# High-speed merchant ship prestige good
-
-prestige_good_roc_fast_merchant_ship = {
-	possible = {
-		has_dlc_feature = mp1_content
-	}
-	base_good = steamers
-	prestige_bonus = 0.1
-	texture = "gfx/interface/icons/goods_icons/prestige_goods/clyde_built_liners_prestige.dds"
-}
