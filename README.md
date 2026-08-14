@@ -139,6 +139,9 @@ government. Existing vanilla icons and backgrounds are reused, no new art requir
 - Works with vanilla 1.13.10. No vanilla files are overwritten; all content is added via new files.
 - Uses the tag `ROC`. Other workshop mods may define the same tag (e.g. Cold War Project,
   Cold War Era 1950, China Revision) and may conflict if enabled together.
+- Redefines the vanilla `on_country_formed` on_action (the full 1.13.10 chain is included).
+  Other mods that also define it (e.g. Community Mod Framework, Cold War Project) override
+  each other by load order; only the last-loaded mod's version runs.
 - UTF-8 BOM + CRLF encoding is used for all script and localization files.
 
 ## Project Layout
@@ -147,7 +150,7 @@ government. Existing vanilla icons and backgrounds are reused, no new art requir
 common/country_definitions/      ROC country definition (colors, tier, cultures, capital)
 common/country_formation/        ROC formable nation (culture states, possible)
 common/dynamic_country_names/    Government-type based country names
-common/on_actions/               On-formation effects (capital and market capital moves)
+common/on_actions/               Vanilla on_country_formed chain + ROC capital/market moves
 common/flag_definitions/         Flags reusing vanilla China coat of arms
 common/company_types/            ROC company definitions
 common/prestige_goods/           Custom ROC prestige goods

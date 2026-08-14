@@ -127,6 +127,9 @@
 - 兼容原版 1.13.10；不覆盖任何原版文件，所有内容均通过新文件添加。
 - 使用 `ROC` 标签。其他 Workshop Mod 可能定义相同标签（例如 Cold War Project、
   Cold War Era 1950、China Revision），同时启用时可能冲突。
+- 重定义了原版 `on_country_formed`（已包含完整 1.13.10 原版链）。其他同样定义该
+  on_action 的 mod（如 Community Mod Framework、Cold War Project）按加载顺序互相覆盖，
+  只有最后加载者的版本生效。
 - 所有脚本与本地化文件均使用 UTF-8 BOM + CRLF 编码。
 
 ## 项目结构
@@ -135,7 +138,7 @@
 common/country_definitions/      ROC 国家定义（颜色、等级、文化、首都）
 common/country_formation/        ROC 成立国家（文化故土、possible 条件）
 common/dynamic_country_names/    按政府类型变化的国名
-common/on_actions/               成立时效果（迁都、迁移市场中心）
+common/on_actions/               原版成立链 + 迁都/市场中心效果
 common/flag_definitions/         复用原版中国盾徽的旗帜
 common/company_types/            中华民国公司定义
 common/prestige_goods/           自定义声望商品
