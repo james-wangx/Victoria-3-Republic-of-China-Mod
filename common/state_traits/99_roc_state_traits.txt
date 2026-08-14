@@ -52,6 +52,16 @@ state_trait_roc_jiangnan = {
 	}
 }
 
+# North China Plain: the great wheat and cotton plain from Beijing to Henan.
+state_trait_roc_north_china_plain = {
+	icon = "gfx/interface/icons/state_trait_icons/good_soils.dds"
+
+	modifier = {
+		building_group_bg_agriculture_throughput_add = 0.1
+		building_group_bg_plantations_throughput_add = 0.1
+	}
+}
+
 # Mongolian Plateau Deposits: coal and iron across Uliastai and Urga.
 state_trait_roc_mongolian_plateau_deposits = {
 	icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
