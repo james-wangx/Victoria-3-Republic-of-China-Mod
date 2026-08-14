@@ -43,9 +43,10 @@ for Qing China.
   +10% railway throughput while prosperous and becomes available once an incorporated Suzhou
   state has a power plant at level 5 or higher.
 - Adds a China-specific **Shanghai Machine Paper Mill** (`company_roc_shanghai_paper`) with
-  paper mills. It gains +10% paper mill throughput while prosperous and becomes available once
-  the mechanical tools tech is researched and an incorporated Suzhou state has a paper mill at
-  level 5 or higher.
+  paper mills and logging camp extensions. It produces crafted paper goods as a prestige good,
+  gains +10% paper mill throughput and +10% bureaucracy while prosperous, and becomes available
+  once the mechanical tools tech is researched and an incorporated Suzhou state has a paper mill
+  at level 5 or higher.
 
 ## Requirements
 

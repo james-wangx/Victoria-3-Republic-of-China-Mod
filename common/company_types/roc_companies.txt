@@ -495,6 +495,14 @@ company_roc_shanghai_paper = {
 		building_paper_mill
 	}
 
+	extension_building_types = {
+		building_logging_camp
+	}
+
+	possible_prestige_goods = {
+		prestige_good_roc_crafted_paper
+	}
+
 	potential = {
 		OR = {
 			country_has_primary_culture = cu:han
@@ -524,6 +532,7 @@ company_roc_shanghai_paper = {
 
 	prosperity_modifier = {
 		building_paper_mill_throughput_add = 0.10
+		country_bureaucracy_mult = 0.10
 	}
 
 	ai_will_do = {

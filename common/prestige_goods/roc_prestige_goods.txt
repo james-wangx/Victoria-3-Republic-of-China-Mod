@@ -19,3 +19,14 @@ prestige_good_roc_processed_food = {
 	prestige_bonus = 0.1
 	texture = "gfx/interface/icons/goods_icons/prestige_goods/generic_groceries_prestige.dds"
 }
+
+# Crafted paper goods prestige good
+
+prestige_good_roc_crafted_paper = {
+	possible = {
+		has_dlc_feature = mp1_content
+	}
+	base_good = paper
+	prestige_bonus = 0.1
+	texture = "gfx/interface/icons/goods_icons/prestige_goods/generic_paper_prestige.dds"
+}
