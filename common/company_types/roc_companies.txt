@@ -518,6 +518,7 @@ company_roc_shanghai_paper = {
 
 	extension_building_types = {
 		building_logging_camp
+		building_sulfur_mine
 	}
 
 	possible_prestige_goods = {

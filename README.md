@@ -71,7 +71,7 @@ level 5 or higher in their headquarters state.
 | Taikang Food Company | New | Shandong / Suzhou | Food industry | Fishing wharf | Gourmet groceries | Canneries; Shandong or Suzhou food industry ≥ 5 | +10% food industry throughput; +10% trade advantage |
 | Yanchang Petroleum Company | New | Xi'an | Oil rig | Power plant | — | Xi'an oil rig ≥ 5 | +20% oil extraction throughput |
 | Shanghai Electric Company | New | Suzhou | Power plant, railway | Electrics industry | — | Suzhou power plant ≥ 5 | +10% power plant throughput; +10% railway throughput |
-| Shanghai Machine Paper Mill | New | Suzhou | Paper mill | Logging camp | Craft paper | Mechanical Tools; Suzhou paper mill ≥ 5 | +10% paper mill throughput; +10% bureaucracy |
+| Shanghai Machine Paper Mill | New | Suzhou | Paper mill | Logging camp, sulfur mine | Craft paper | Mechanical Tools; Suzhou paper mill ≥ 5 | +10% paper mill throughput; +10% bureaucracy |
 | China Merchants' Steam Navigation Company | New | Suzhou | Trade center, port | Shipyard | Swift merchant marine | Suzhou trade center ≥ 5 and port ≥ 5 | +10% trade advantage; +10% port throughput |
 | Jiangnan Arsenal | New | Suzhou | Motor industry, tooling workshop | Automotive industry | Jiangnan engines, precision tools | Suzhou motor industry ≥ 5 | +10% capital ship construction efficiency; +10% motor industry throughput |
 | Foochow Arsenal | Replaces vanilla | Fujian | Shipyard | Motor industry | — | Ironclads and Gantry Cranes; Fujian shipyard ≥ 5 | +10% supply ship construction efficiency; +10% shipyard throughput |
