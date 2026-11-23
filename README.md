@@ -4,13 +4,13 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Game-Victoria%203-blue" alt="Game">
-  <img src="https://img.shields.io/badge/Game%20Version-1.13.10%20Matcha-blue" alt="Game Version">
-  <img src="https://img.shields.io/badge/Mod%20Version-1.13.10-blueviolet" alt="Mod Version">
+  <img src="https://img.shields.io/badge/Game%20Version-1.15.2%20Ivan--Chai-blue" alt="Game Version">
+  <img src="https://img.shields.io/badge/Mod%20Version-1.15.2-blueviolet" alt="Mod Version">
   <img src="https://img.shields.io/badge/License-MIT-yellow" alt="License">
   <img src="https://img.shields.io/badge/Language-English%20%7C%20ZH--CN-lightgrey" alt="Language">
 </p>
 
-A Victoria 3 (1.13.10 Matcha) mod that adds the **Republic of China (ROC)** as a formable nation
+A Victoria 3 (1.15.2 Ivan-Chai) mod that adds the **Republic of China (ROC)** as a formable nation
 for Qing China, together with China-specific companies, regional state traits and unique
 buildings.
 
@@ -128,7 +128,7 @@ government. Existing vanilla icons and backgrounds are reused, no new art requir
 
 ## Requirements
 
-- Victoria 3 version **1.13.10 (Matcha)**
+- Victoria 3 version **1.15.2 (Ivan-Chai)**
 - The mod must be enabled in the launcher play set
 
 ## Installation
@@ -143,10 +143,13 @@ government. Existing vanilla icons and backgrounds are reused, no new art requir
 
 ## Compatibility
 
-- Works with vanilla 1.13.10. No vanilla files are overwritten; all content is added via new files.
+- Works with vanilla 1.15.2. No vanilla files are overwritten; all content is added via new files.
+- State-region overrides are synchronized with vanilla 1.15.2 data, including province
+  assignments, arable land, resources, map anchors, and climate values.
 - Uses the tag `ROC`. Other workshop mods may define the same tag (e.g. Cold War Project,
   Cold War Era 1950, China Revision) and may conflict if enabled together.
-- Redefines the vanilla `on_country_formed` on_action (the full 1.13.10 chain is included).
+- Redefines the vanilla `on_country_formed` on_action using the upstream 1.13.10 chain bundled
+  with this repository. Re-sync it when an upstream change affects formation behavior.
   Other mods that also define it (e.g. Community Mod Framework, Cold War Project) override
   each other by load order; only the last-loaded mod's version runs.
 - UTF-8 BOM + CRLF encoding is used for all script and localization files.

@@ -11,7 +11,7 @@
   `C:\Program Files (x86)\Steam\steamapps\common\Victoria 3\game`
 - Installed mods directory (Steam Workshop content):
   `C:\Program Files (x86)\Steam\steamapps\workshop\content\529340`
-- Current game version: 1.13.10 (Matcha)
+- Current game version: 1.15.2 (Ivan-Chai)
 
 ## Maintenance
 

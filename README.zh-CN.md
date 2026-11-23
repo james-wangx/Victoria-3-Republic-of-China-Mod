@@ -4,13 +4,13 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Game-Victoria%203-blue" alt="游戏">
-  <img src="https://img.shields.io/badge/Game%20Version-1.13.10%20Matcha-blue" alt="游戏版本">
-  <img src="https://img.shields.io/badge/Mod%20Version-1.13.10-blueviolet" alt="Mod 版本">
+  <img src="https://img.shields.io/badge/Game%20Version-1.15.2%20Ivan--Chai-blue" alt="游戏版本">
+  <img src="https://img.shields.io/badge/Mod%20Version-1.15.2-blueviolet" alt="Mod 版本">
   <img src="https://img.shields.io/badge/License-MIT-yellow" alt="许可证">
   <img src="https://img.shields.io/badge/Language-English%20%7C%20ZH--CN-lightgrey" alt="语言">
 </p>
 
-一个为 **维多利亚3（1.13.10 Matcha）** 制作、为清朝中国新增 **中华民国（ROC）** 成立国家，并加入中国专属公司、地区特质与独特建筑的 Mod。
+一个为 **维多利亚3（1.15.2 Ivan-Chai）** 制作、为清朝中国新增 **中华民国（ROC）** 成立国家，并加入中国专属公司、地区特质与独特建筑的 Mod。
 
 **标签：** 成立国家 · 公司 · 地区特质 · 独特建筑
 
@@ -113,7 +113,7 @@
 
 ## 需求
 
-- 维多利亚3 **1.13.10（Matcha）** 版本
+- 维多利亚3 **1.15.2（Ivan-Chai）** 版本
 - 需要在启动器中启用本 Mod
 
 ## 安装
@@ -128,12 +128,13 @@
 
 ## 兼容性
 
-- 兼容原版 1.13.10；不覆盖任何原版文件，所有内容均通过新文件添加。
+- 兼容原版 1.15.2；不覆盖任何原版文件，所有内容均通过新文件添加。
+- 州区域覆盖文件已同步原版 1.15.2 数据，包括省份归属、耕地、资源、地图锚点和气候值。
 - 使用 `ROC` 标签。其他 Workshop Mod 可能定义相同标签（例如 Cold War Project、
   Cold War Era 1950、China Revision），同时启用时可能冲突。
-- 重定义了原版 `on_country_formed`（已包含完整 1.13.10 原版链）。其他同样定义该
-  on_action 的 mod（如 Community Mod Framework、Cold War Project）按加载顺序互相覆盖，
-  只有最后加载者的版本生效。
+- 重定义了原版 `on_country_formed`（已包含本仓库使用的 1.13.10 原版链）；上游成立
+  行为变化时需要重新同步。其他同样定义该 on_action 的 mod（如 Community Mod
+  Framework、Cold War Project）按加载顺序互相覆盖，只有最后加载者的版本生效。
 - 所有脚本与本地化文件均使用 UTF-8 BOM + CRLF 编码。
 
 ## 项目结构
