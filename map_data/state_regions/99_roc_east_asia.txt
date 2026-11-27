@@ -1,8 +1,7 @@
 ﻿# ROC state regions
-# Full state definitions synchronized with vanilla Victoria 3 1.15.2, including
-# province assignments, arable land, resources, map anchors, and climate values.
-# ROC map traits and the deliberate Kailuan, Daqing, and Yumen resource additions
-# are layered on top of the vanilla definitions.
+# Full state definitions synchronized with vanilla Victoria 3 1.15.2 for province
+# assignments, arable land, map anchors, and climate values. Historical mineral
+# resources tied to ROC state traits retain the mod's previous resource balance.
 
 STATE_BEIJING = {
     id = 487
@@ -415,6 +414,7 @@ STATE_EASTERN_HUBEI = {
     arable_land = 320
     arable_resources = { "building_rice_farm" "building_livestock_ranch" "building_cotton_plantation" "building_silk_plantation" "building_tea_plantation" "building_tobacco_plantation" }
     capped_resources = {
+        building_iron_mine = 50
         building_logging_camp = 8
     }
     min_cold_effect = 0.00
@@ -432,6 +432,7 @@ STATE_SICHUAN = {
     arable_land = 330
     arable_resources = { "building_rice_farm" "building_livestock_ranch" "building_opium_plantation" "building_tea_plantation" "building_tobacco_plantation" "building_vineyard" }
     capped_resources = {
+        building_iron_mine = 40
         building_coal_mine = 60
         building_sulfur_mine = 40
         building_logging_camp = 23
@@ -520,7 +521,7 @@ STATE_HINGGAN = {
     arable_land = 102
     arable_resources = { "building_wheat_farm" "building_livestock_ranch" }
     capped_resources = {
-        building_iron_mine = 36
+        building_iron_mine = 60
         building_lead_mine = 24
         building_logging_camp = 6
     }

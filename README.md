@@ -144,8 +144,9 @@ government. Existing vanilla icons and backgrounds are reused, no new art requir
 ## Compatibility
 
 - Works with vanilla 1.15.2. No vanilla files are overwritten; all content is added via new files.
-- State-region overrides are synchronized with vanilla 1.15.2 data, including province
-  assignments, arable land, resources, map anchors, and climate values.
+- State-region overrides are synchronized with vanilla 1.15.2 data for province assignments,
+  arable land, map anchors, and climate values, including new copper resources. Iron
+  capacities tied to historical ROC state traits intentionally retain the previous balance.
 - Uses the tag `ROC`. Other workshop mods may define the same tag (e.g. Cold War Project,
   Cold War Era 1950, China Revision) and may conflict if enabled together.
 - Redefines the vanilla `on_country_formed` on_action using the upstream 1.13.10 chain bundled
